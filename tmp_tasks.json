@@ -1,0 +1,824 @@
+[
+  {
+    "page_start": 4,
+    "title": "OBI",
+    "name": "obi",
+    "description_preview": "O principal prêmio da Olimpíada Brasileira de Informática é o convite para os cursos de programação\noferecidos no Instit",
+    "description": "O principal prêmio da Olimpíada Brasileira de Informática é o convite para os cursos de programação\noferecidos no Instituto de Computação da Unicamp, com todas as despesas pagas pela Fundação\nCarlos Chagas, patrocinadora da OBI. São convidados apenas os competidores que atingem um\ncerto número mínimo de pontos, consideradas as duas fases de provas. Você foi contratado pela\nCoordenação da OBI para fazer um programa que, dados os números de pontos obtidos por cada\ncompetidor em cada uma das fases, e o número mínimo de pontos para ser convidado, determine\nquantos competidores serão convidados para o curso na Unicamp. Você deve considerar que\n todos os competidores participaram das duas fases;\n o total de pontos de um competidor é a soma dos pontos obtidos nas duas fases.\nPor exemplo, se a pontuação mínima para ser convidado é 435 pontos, um competidor que tenha\nobtido 200 pontos na primeira fase e 235 pontos na segunda fase será convidado para o curso na\nUnicamp. Já um competidor que tenha obtido 200 pontos na primeira fase e 234 pontos na segunda\nfase não será convidado.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "3 100\n50 50\n100 0\n49 50\n",
+        "output": "2\n"
+      },
+      {
+        "input": "4 235\n100 134\n0 0\n200 200\n150 150\n",
+        "output": "2\n"
+      }
+    ]
+  },
+  {
+    "page_start": 6,
+    "title": "Telefone",
+    "name": "telefone",
+    "description_preview": "As primeiras redes públicas de telefonia foram construídas pela AT&T no começo do século XX. Elas\npermitiam que seus ass",
+    "description": "As primeiras redes públicas de telefonia foram construídas pela AT&T no começo do século XX. Elas\npermitiam que seus assinantes conversassem com a ajuda de uma telefonista, que conectava as\nlinhas dos assinantes com um cabo especial. Essas redes evoluíram muito desde então, com a ajuda\nde vários avanços tecnológicos. Hoje em dia, essas redes atendem centenas de milhões de\nassinantes; ao invés de falar diretamente com uma telefonista, você pode simplesmente discar o\nnúmero da pessoa desejada no telefone. Cada assinante recebe um número de telefone -- por\nexemplo, 55-98-234-5678. Qualquer pessoa que discar esse número consegue então falar com a\npessoa do outro lado da linha. Os hífens no número de telefone são só para facilitar a leitura, e não\nsão discados no telefone. Para que fique mais fácil de se lembrar de um número de telefone, muitas\ncompanhias divulgam números que contém letras no lugar de dígitos. Para convertê-los de volta para\ndígitos, a maioria dos telefones tem letras nas suas teclas:\n\nAo invés de discar uma letra, disca-se a tecla que contém aquela letra. Por exemplo, se você quiser\ndiscar o número 0800-FALE-SBC, você na realidade discaria 0800-3253-722. A sua avó tem\nreclamado de problemas de vista -- em particular, ela não consegue mais enxergar as letrinhas nas\nteclas do telefone, e por isso queria que você fizesse um programa que convertesse as letras em um\nnúmero de telefone para dígitos.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "PIPOCA\n",
+        "output": "747622\n"
+      },
+      {
+        "input": "FALE-SBC\n",
+        "output": "3253-722\n"
+      }
+    ]
+  },
+  {
+    "page_start": 8,
+    "title": "Vestibular",
+    "name": "vestibular",
+    "description_preview": "A maioria das universidades brasileiras usa o vestibular para selecionar seus alunos. O vestibular\nconsiste de uma ou ma",
+    "description": "A maioria das universidades brasileiras usa o vestibular para selecionar seus alunos. O vestibular\nconsiste de uma ou mais provas sobre as matérias do Ensino Médio, visando avaliar os\nconhecimentos dos candidatos. Um formato popular de prova de vestibular é a prova objetiva. Neste\nformato de prova, cada candidato deve escolher uma das cinco alternativas apresentadas pela\nquestão como sendo a correta. Durante a correção dos cartões, cada questão onde a alternativa\nescolhida pelo candidato é a mesma do gabarito, ele ganha um ponto. Alguns dos vestibulares mais\nconcorridos do Brasil são disputados por dezenas de milhares de candidatos, e, por isso, geralmente\nusa-se uma folha de leitura óptica e um programa de computador para corrigir as provas de todos os\ncandidatos e gerar a lista com suas pontuações. Você trabalha no comitê responsável pelo vestibular\nem uma faculdade e deve escrever um programa que, dado o gabarito e as respostas de um dos\ncandidatos, determina o número de acertos daquele candidato.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "7\nAEDBCCE\nADDCCBE\n",
+        "output": "4\n"
+      },
+      {
+        "input": "5\nABCDE\nABCDE\n",
+        "output": "5\n"
+      },
+      {
+        "input": "10\nABCDEABCDE\nBCDEABCDEA\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "page_start": 10,
+    "title": "Aviões de papel",
+    "name": "avioesdepapel",
+    "description_preview": "Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato\nde aviões de papel. Cada ",
+    "description": "Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato\nde aviões de papel. Cada aluno participante receberá uma certa quantidade de folhas de um papel\nespecial para fazer os seus modelos de aviões. A quantidade de folhas que cada aluno deverá\nreceber ainda não foi determinada: ela será decidida pelos juízes do campeonato.\nA diretora convidou, para atuarem como juízes, engenheiros da Embraer, uma das mais bem\nsucedidas empresas brasileiras, que vende aviões com tecnologia brasileira no mundo todo. O\ncampeonato está programado para começar logo após a prova da OBI, mas os juízes ainda não\nchegaram à escola. A diretora está aflita, pois comprou uma boa quantidade de folhas de papel\nespecial, mas não sabe se a quantidade comprada vai ser suficiente.\nConsidere, por exemplo, que a Diretora comprou 100 folhas de papel especial, e que há 33\ncompetidores. Se os juízes decidirem que cada competidor tem direito a três folhas de papel, a\nquantidade comprada pela diretora é suficiente. Mas se os juízes decidirem que cada competidor tem\ndireito a quatro folhas, a quantidade comprada pela diretora não seria suficiente.\nVocê deve escrever um programa que, dados o número de competidores, o número de folhas de\npapel especial compradas pela Diretora e o número de folhas que cada competidor deve receber,\ndetermine se o número de folhas comprado pela Diretora é suficiente.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "10 100 10\n",
+        "output": "S\n"
+      },
+      {
+        "input": "10 90 10\n",
+        "output": "N\n"
+      },
+      {
+        "input": "5 40 2\n",
+        "output": "S\n"
+      }
+    ]
+  },
+  {
+    "page_start": 12,
+    "title": "Número de Envelopes",
+    "name": "numerodeenvelopes",
+    "description_preview": "Aldo é um garoto muito esperto que adora promoções e sorteios. Como já participou de muitas\npromoções da forma \"para par",
+    "description": "Aldo é um garoto muito esperto que adora promoções e sorteios. Como já participou de muitas\npromoções da forma \"para participar, envie n rótulos de produtos ...\", Aldo tem o costume de guardar\no rótulo de todos os produtos que compra. Dessa forma, sempre que uma empresa faz uma\npromoção ele já tem um monte de rótulos para mandar.\nA SBC (Super Balas e Caramelos) está fazendo uma nova promoção, e, como era de se esperar,\nAldo quer participar. Para participar da promoção é preciso enviar um envelope contendo um rótulo\nde cada tipo de bala que a SBC produz. Por exemplo, se a SBC produz 3 tipos de balas, A, B, C, e\numa pessoa tem 3 rótulos de A, 3 de B e 2 de C, ela pode enviar no máximo 2 envelopes, já que falta\num rótulo de C para compor o terceiro envelope. Não há limite para o número de envelopes que uma\npessoa pode enviar.\nBalas são a segunda coisa de que Aldo mais gosta (a primeira como você sabe são promoções). Por\ncausa disso a quantidade de rótulos de balas que ele tem é muito grande, e ele não está\nconseguindo determinar a quantidade máxima de envelopes que ele pode enviar.\nComo você é o melhor amigo de Aldo ele pediu sua ajuda para fazer o cálculo, de modo que ele\ncompre o número exato de envelopes. Você deve escrever um programa que, a partir da lista de\nrótulos de Aldo, calcula o número máximo de envelopes válidos que ele pode enviar.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "4\n5 3 6 2\n",
+        "output": "2\n"
+      },
+      {
+        "input": "6\n10 5 21 3 0 11\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "page_start": 14,
+    "title": "Overflow",
+    "name": "overflow",
+    "description_preview": "Os computadores foram inventados para realizar cálculos muito rapidamente, e atendem a esse\nrequisito de maneira extraor",
+    "description": "Os computadores foram inventados para realizar cálculos muito rapidamente, e atendem a esse\nrequisito de maneira extraordinária. Porém, nem toda conta pode ser feita num computador, pois ele\nnão consegue representar todos os números dentro de sua memória. Em um computador pessoal\natual, por exemplo, o maior inteiro que é possível representar em sua memória é 4.294.967.295.\nCaso alguma conta executada pelo computador dê um resultado acima desse número, ocorrerá o\nque chamamos de overflow, que é quando o computador faz uma conta e o resultado não pode ser\nrepresentado, por ser maior do que o valor máximo permitido (em inglês overflow significa\ntrasbordar). Por exemplo, se um computador só pode representar números menores do que 1023 e\nmandamos ele executar a conta 1022 + 5, vai ocorrer overflow .\nTarefa\nDados o maior número que um computador consegue representar e uma expressão de soma ou\nmultiplicação entre dois inteiros, determine se ocorrerá\noverflow\n.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "10\n5 + 5\n",
+        "output": "OK\n"
+      },
+      {
+        "input": "44\n23 * 2\n",
+        "output": "OVERFLOW\n"
+      },
+      {
+        "input": "323500\n42 * 35\n",
+        "output": "OK\n"
+      }
+    ]
+  },
+  {
+    "page_start": 16,
+    "title": "Garçom",
+    "name": "garcom",
+    "description_preview": "Parte do treinamento de um novo garçom é carregar uma grande bandeja com várias latas de\nbebidas e copos e entregá-las t",
+    "description": "Parte do treinamento de um novo garçom é carregar uma grande bandeja com várias latas de\nbebidas e copos e entregá-las todas numa mesa do restaurante. Durante o treinamento é comum\nque os garçons deixem cair as bandejas, quebrando todos os copos.\nA SBC -- Sociedade Brasileira de Copos -- analisou estatísticas do treinamento de diversos garçons\ne descobriu que os garçons em treinamento deixam cair apenas bandejas que têm mais latas de\nbebidas que copos. Por exemplo, se uma bandeja tiver 10 latas e 4 copos, certamente o garçom em\ntreinamento a deixará cair, quebrando os 4 copos. Já se a bandeja tiver 5 latas e 6 copos, ele\nconseguirá entregá-la sem deixar cair.\nEscreva um programa que, dado o número de latas e copos em cada bandeja que o garçom tentou\nentregar, imprime o total de copos que ele quebrou.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "3\n10 5\n6 8\n3 3\n",
+        "output": "5\n"
+      },
+      {
+        "input": "4\n10 6\n8 8\n5 1\n100 100\n",
+        "output": "7\n"
+      }
+    ]
+  },
+  {
+    "page_start": 18,
+    "title": "Pneu",
+    "name": "pneu",
+    "description_preview": "Calibrar os pneus do carro deve ser uma tarefa cotidiana de todos os motoristas. Para isto, os postos\nde gasolina possue",
+    "description": "Calibrar os pneus do carro deve ser uma tarefa cotidiana de todos os motoristas. Para isto, os postos\nde gasolina possuem uma bomba de ar. A maioria das bombas atuais são eletrônicas, permitindo\nque o motorista indique a pressão desejada num teclado. Ao ser ligada ao pneu, a bomba primeiro lê\na pressão atual e calcula a diferença de pressão entre a desejada e a lida. Com esta diferença ela\nesvazia ou enche o pneu para chegar na pressão correta. Sua ajuda foi requisitada para desenvolver\no programa da próxima bomba da SBC - Sistemas de Bombas Computadorizadas. Escreva um\nprograma que, dada a pressão desejada digitada pelo motorista e a pressão do pneu lida pela\nbomba, indica a diferença entre a pressão desejada e a pressão lida.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "30\n18\n",
+        "output": "12\n"
+      },
+      {
+        "input": "27\n27\n",
+        "output": "0\n"
+      },
+      {
+        "input": "27\n30\n",
+        "output": "-3\n"
+      }
+    ]
+  },
+  {
+    "page_start": 20,
+    "title": "Sedex",
+    "name": "sedex",
+    "description_preview": "A Copa do Mundo de 2010 será realizada na Africa do Sul. Bolas de futebol são muito fáceis de\ntransportar, já que elas s",
+    "description": "A Copa do Mundo de 2010 será realizada na Africa do Sul. Bolas de futebol são muito fáceis de\ntransportar, já que elas saem das fábricas vazias e só são enchidas somente pelas lojas ou pelos\nconsumidores finais. Infelizmente o mesmo não pode ser dito das bolas de boliche. Como elas são\ncompletamente sólidas, elas só podem ser transportadas embaladas uma a uma, em caixas\nseparadas.\nA SBC -- Só Boliche Cascavel -- é uma fábrica de bolas de boliche que trabalha somente através de\nencomendas e envia todas as bolas por SEDEX. Como as bolas têm tamanhos diferentes, a SBC\ntem vários tamanhos de caixas diferentes para transportá-las.\nEscreva um programa que, dado o diâmetro de uma bola e as 3 dimensões de uma caixa (altura,\nlargura e profundidade), diz se a bola de boliche cabe dentro da caixa ou não.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "3\n2 3 5\n",
+        "output": "N\n"
+      },
+      {
+        "input": "5\n5 5 5\n",
+        "output": "S\n"
+      },
+      {
+        "input": "9\n15 9 10\n",
+        "output": "S\n"
+      }
+    ]
+  },
+  {
+    "page_start": 22,
+    "title": "Campo Minado",
+    "name": "campominado",
+    "description_preview": "Leonardo é um garoto fascinado por jogos de tabuleiro. Nas férias de janeiro, ele aprendeu um jogo\nchamado Campo minado,",
+    "description": "Leonardo é um garoto fascinado por jogos de tabuleiro. Nas férias de janeiro, ele aprendeu um jogo\nchamado Campo minado, que é jogado em um tabuleiro com N células dispostas na horizontal. O\nobjetivo desse jogo é determinar, para cada célula do tabuleiro, o número de minas explosivas nos\narredores da mesma (que são a própria célula e as células imediatamente vizinhas à direita e à\nesquerda, caso essas existam). Por exemplo, a figura abaixo ilustra uma possível configuração de\num tabuleiro com 5 células:\n\nA primeira célula não possui nenhuma mina explosiva, mas é vizinha de uma célula que possui uma\nmina explosiva. Nos arredores da segunda célula temos duas minas, e o mesmo acontece para a\nterceira e quarta células; a quinta célula só tem uma mina explosiva em seus arredores. A próxima\nfigura ilustra a resposta para esse caso.\n\nLeonardo sabe que você participa da OBI e resolveu lhe pedir para escrever um programa de\ncomputador que, dado um tabuleiro, imprima o número de minas na vizinhança de cada posição.\nAssim, ele poderá conferir as centenas de tabuleiros que resolveu durante as férias.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "5\n0\n1\n1\n0\n1\n",
+        "output": "1\n2\n2\n2\n1\n"
+      },
+      {
+        "input": "5\n0\n1\n1\n1\n0\n",
+        "output": "1\n2\n3\n2\n1\n"
+      }
+    ]
+  },
+  {
+    "page_start": 24,
+    "title": "Corrida",
+    "name": "corrida",
+    "description_preview": "A escola de Joãozinho tradicionalmente organiza uma corrida ao redor do prédio. Como todos os\nalunos são convidados a pa",
+    "description": "A escola de Joãozinho tradicionalmente organiza uma corrida ao redor do prédio. Como todos os\nalunos são convidados a participar e eles estudam em períodos diferentes, é difícil que todos corram\nao mesmo tempo. Para contornar esse problema, os professores cronometram o tempo que cada\naluno demora para dar cada volta ao redor da escola, e depois comparam os tempos para descobrir\na classicação final.\nSua tarefa é, sabendo o número de competidores, o número de voltas de que consistiu a corrida e os\ntempos de cada aluno competidor, descobrir quem foi o aluno vencedor, para que ele possa receber\numa medalha comemorativa. Saída A saída consiste de um único inteiro, que corresponde ao\nnúmero do competidor que ganhou a corrida.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "2 1\n5\n7\n",
+        "output": "1\n"
+      },
+      {
+        "input": "3 3\n3 5 6\n1 2 3\n1 1 1\n",
+        "output": "3\nNeste último exemplo existem três competidores numa corrida de três voltas. Os tempos de cada\ncompetidor em cada volta foram como na tabela a seguir.\n Volta1\n Volta 2\n Volta 3\n Tempo total\nCompetidor\n1\n3\n5\n6\n14\nCompetidor\n2\n1\n2\n3\n6\nCompetidor\n3\n1\n1\n1\n3\nSendo assim, o vencedor foi o competidor 3 (com um tempo total de 3).\n"
+      }
+    ]
+  },
+  {
+    "page_start": 26,
+    "title": "Transporte de Contêineres",
+    "name": "transportedeconteineres",
+    "description_preview": "A Betalândia é um país que apenas recentemente se abriu para o comércio exterior e está\npreparando agora sua primeira gr",
+    "description": "A Betalândia é um país que apenas recentemente se abriu para o comércio exterior e está\npreparando agora sua primeira grande exportação. A Sociedade Betalandesa de Comércio (SBC)\ncou encarregada de conduzir a exportação e determinou que, seguindo os padrões internacionais, a\ncarga será transportada em contêineres, que são, por sua vez, colocados em grandes navios para o\ntransporte internacional.\nTodos os contêineres betalandeses são idênticos, medindo A metros de largura, B metros de\ncomprimento e C metros de altura. Um navio porta-contêineres pode ser visto como um retângulo\nhorizontal de X metros de largura e Y metros de comprimento, sobre o qual os contêineres são\ncolocados. Nenhuma parte de contêiner pode car para fora do navio. Além disso, para possibilitar a\ntravessia de pontes, a altura máxima da carga no navio não pode ultrapassar Z metros.\n\nDevido a limitações do guindaste utilizado, os contêineres só podem ser carregados alinhados com o\nnavio. Ou seja, os contêineres só podem ser colocados sobre o navio de tal forma que a largura e o\ncomprimento do contêiner estejam paralelos à largura e ao comprimento do navio, respectivamente.\nA SBC está com problemas para saber qual a quantidade máxima de contêineres que podem ser\ncolocados no navio e pede sua ajuda. Sua tarefa, neste problema, é determinar quantos contêineres\npodem ser carregados no navio respeitando as restrições acima.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "1 1 1\n1 1 1\n",
+        "output": "1\n"
+      },
+      {
+        "input": "1 2 5\n9 6 11\n",
+        "output": "54\n"
+      },
+      {
+        "input": "1 2 12\n6 9 10\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "page_start": 28,
+    "title": "Busca na Internet",
+    "name": "buscanainternet",
+    "description_preview": "João fez uma pesquisa em seu site de busca predileto, e encontrou a resposta que estava\nprocurando no terceiro link list",
+    "description": "João fez uma pesquisa em seu site de busca predileto, e encontrou a resposta que estava\nprocurando no terceiro link listado. Além disso, ele viu, pelo site, que t pessoas já haviam clicado\nneste link antes. João havia lido anteriormente, também na Internet, que o número de pessoas que\nclicam no segundo link listado é o dobro de número de pessoas que clicam no terceiro link listado.\nNessa leitura, ele também descobriu que o número de pessoas que clicam no segundo link é a\nmetade do número de pessoas que clicam no primeiro link. João está intrigado para saber quantas\npessoas clicaram no primeiro link da busca, e, como você é amigo dele, quer sua ajuda nesta tarefa.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "2\n",
+        "output": "8\n"
+      },
+      {
+        "input": "25\n",
+        "output": "100\n"
+      }
+    ]
+  },
+  {
+    "page_start": 30,
+    "title": "9 5 -1 10 2 10",
+    "name": "95110210",
+    "description_preview": "",
+    "description": "",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "10 30 20 5 0\n",
+        "output": "30\n"
+      },
+      {
+        "input": "99 1000 55 1 2 9 0\n",
+        "output": "1000\n"
+      }
+    ]
+  },
+  {
+    "page_start": 32,
+    "title": "Saldo do Vovô",
+    "name": "saldodovovo",
+    "description_preview": "Vovô João tem uma banca de jornais; ele tem muitos clientes, e diariamente recebe muito dinheiro,\nmas também faz muitos ",
+    "description": "Vovô João tem uma banca de jornais; ele tem muitos clientes, e diariamente recebe muito dinheiro,\nmas também faz muitos pagamentos para manter o seu estoque de jornais e revistas. Todo dia ele\nvai ao banco realizar um depósito ou uma retirada de dinheiro. Em alguns dias, o saldo de sua conta\nno banco fica negativo, mas Vovô João tem um acordo com o banco que garante que ele somente é\ncobrado se o saldo for menor do que um valor pré-estabelecido.\nDada a movimentação diária da conta do banco do Vovô João, você deve escrever um programa que\ncalcule o menor saldo da conta, no período dado.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "3 1000\n100\n-800\n50\n",
+        "output": "300\n"
+      },
+      {
+        "input": "6 -200\n-100\n1000\n-1000\n100\n-50\n1000\n",
+        "output": "-300\n"
+      }
+    ]
+  },
+  {
+    "page_start": 34,
+    "title": "Tomadas",
+    "name": "tomadas",
+    "description_preview": "A Olimpíada Internacional de Informática (IOI, no original em inglês) é a mais prestigiada competição\nde programação par",
+    "description": "A Olimpíada Internacional de Informática (IOI, no original em inglês) é a mais prestigiada competição\nde programação para alunos de ensino médio; seus aproximadamente 300 competidores se reúnem\nem um país diferente todo ano para os dois dias de prova da competição. Naturalmente, os\ncompetidores usamo o tempo livre para acessar a Internet, programar e jogar em seus notebooks,\nmas eles se depararam com um problema: o saguão do hotel só tem uma tomada.\nFelizmente, os quatro competidores da equipe brasileira da IOI trouxeram cada um uma régua de\ntomadas, permitindo assim ligar vários notebooks em uma tomada só; eles também podem ligar uma\nrégua em outra para aumentar ainda mais o número de tomadas disponíveis. No entanto, como as\nréguas têm muitas tomadas, eles pediram para você escrever um programa que, dado o número de\ntomadas em cada régua, determina quantas tomadas podem ser disponibilizadas no saguão do hotel.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "2 4 3 2\n",
+        "output": "8\n"
+      },
+      {
+        "input": "6 6 6 6\n",
+        "output": "21\n"
+      },
+      {
+        "input": "2 2 2 2\n",
+        "output": "5\n"
+      }
+    ]
+  },
+  {
+    "page_start": 36,
+    "title": "Fila",
+    "name": "fila",
+    "description_preview": "Com a proximidade da Copa do Mundo, o fluxo de pessoas nas filas para compra de ingressos\naumentou consideravelmente. Co",
+    "description": "Com a proximidade da Copa do Mundo, o fluxo de pessoas nas filas para compra de ingressos\naumentou consideravelmente. Como as filas estão cada vez maiores, pessoas menos pacientes\ntendem a desistir da compra de ingressos e acabam deixando as filas, liberando assim vaga para\noutras pessoas. Quando uma pessoa deixa a fila, todas as pessoas que estavam atrás dela dão um\npasso a frente, sendo assim nunca existe um espaço vago entre duas pessoas. A fila inicialmente\ncontém N pessoas, cada uma com um identificador diferente.\nJoãozinho sabe o estado inicial dela e os identificadores em ordem das pessoas que deixaram a fila.\nSabendo que após o estado inicial nenhuma pessoa entrou mais na fila, Joãozinho deseja saber o\nestado final da fila.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "8\n5 100 9 81 70 33 2 1000\n3\n9 33 5\n",
+        "output": "100 81 70 2 1000\n"
+      },
+      {
+        "input": "4\n10 9 6 3\n1\n3\n",
+        "output": "10 9 6\n"
+      }
+    ]
+  },
+  {
+    "page_start": 38,
+    "title": "Flíper",
+    "name": "fliper",
+    "description_preview": "Flíper é um tipo de jogo onde uma bolinha de metal cai por um labirinto de caminhos até chegar na\nparte de baixo do labi",
+    "description": "Flíper é um tipo de jogo onde uma bolinha de metal cai por um labirinto de caminhos até chegar na\nparte de baixo do labirinto. A quantidade de pontos que o jogador ganha depende do caminho que a\nbolinha seguir. O jogador pode controlar o percurso da bolinha mudando a posição de algumas\nportinhas do labirinto. Cada portinha pode estar na posição 0, que significa virada para a esquerda,\nou na posição 1 que quer dizer virada para a direita. Considere o flíper da figura abaixo, que tem\nduas portinhas. A portinha P está na posição 1 e a portinha R, na posição 0. Desse jeito, a bolinha\nvai cair pelo caminho B.\n\nVocê deve escrever um programa que, dadas as posições das portinhas P e R, neste flíper da figura,\ndiga por qual dos três caminhos, A, B ou C, a bolinha vai cair!",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "1 0\n",
+        "output": "B\n"
+      },
+      {
+        "input": "0 0\n",
+        "output": "C\n"
+      }
+    ]
+  },
+  {
+    "page_start": 40,
+    "title": "Gangorra",
+    "name": "gangorra",
+    "description_preview": "Joãozinho acaba de mudar de escola e a primeira coisa que percebeu na nova escola é que a\ngangorra do parquinho não é si",
+    "description": "Joãozinho acaba de mudar de escola e a primeira coisa que percebeu na nova escola é que a\ngangorra do parquinho não é simétrica, uma das extremidades é mais longa que a outra. Após\nbrincar algumas vezes com um amigo de mesmo peso, ele percebeu que quando está em uma\nextremidade, a gangorra se desequilibra para o lado dele (ou seja, ele fica na parte de baixo, e o\namigo na parte de cima), mas quando eles trocam de lado, a gangorra se desequilibra para o lado do\namigo. Sem entender a situação, Joãozinho pediu ajuda a outro amigo de outra série, que explicou\nque o comprimento do lado interfere no equilíbrio da gangorra, pois a gangorra estará equilibrada\nquando\nP1*C1=P2*C2\nonde P\n1\ne P\n2\nsão os pesos da criança no lado esquerdo e direito, respectivamente, e C\n1\ne C\n2\nsão os comprimentos da gangorra do lado esquerdo e direito, respectivamente.\nCom a equação, Joãozinho já consegue dizer se a gangorra está equilibrada ou não mas, além\ndisso, ele quer saber para qual lado a gangorra descerá caso esteja desequilibrada.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "30 100 60 50\n",
+        "output": "0\n"
+      },
+      {
+        "input": "40 40 38 60\n",
+        "output": "1\n"
+      }
+    ]
+  },
+  {
+    "page_start": 42,
+    "title": "Fita Colorida",
+    "name": "fitacolorida",
+    "description_preview": "Roberto tem um conjunto de lápis com 10 tons diferentes de uma mesma cor, numerados de 0 a 9.\nNuma fita quadriculada, al",
+    "description": "Roberto tem um conjunto de lápis com 10 tons diferentes de uma mesma cor, numerados de 0 a 9.\nNuma fita quadriculada, alguns quadrados foram coloridos inicialmente com o tom 0. Roberto precisa\ndeterminar, para cada quadrado Q não colorido, qual é a distância dele para o quadrado mais\npróximo de tom 0. A distância entre dois quadrados é definida com o número mínimo de movimentos\npara a esquerda, ou para a direita, para ir de um quadrado para o outro. O quadrado Q, então, deve\nser colorido com o tom cuja numeração corresponde à distância determinada. Se a distância for\nmaior ou igual a 9, o quadrado deve ser colorido com o tom 9. Seu programa deve colorir e imprimir a\nfita quadriculada dada na entrada.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "8\n-1 -1 0 -1 -1 -1 0 -1\n",
+        "output": "2 1 0 1 2 1 0 1\n"
+      },
+      {
+        "input": "13\n-1 0 -1 -1 -1 -1 -1 -1 -1 -1 0 -1\n-1\n",
+        "output": "1 0 1 2 3 4 4 3 2 1 0 1 2\n"
+      },
+      {
+        "input": "6\n0 -1 -1 -1 -1 -1\n",
+        "output": "0 1 2 3 4 5\n"
+      }
+    ]
+  },
+  {
+    "page_start": 44,
+    "title": "Móbile",
+    "name": "mobile",
+    "description_preview": "O móbile na sala da Maria é composto de três hastes exatamente como na figura abaixo. Para que\nele esteja completamente ",
+    "description": "O móbile na sala da Maria é composto de três hastes exatamente como na figura abaixo. Para que\nele esteja completamente equilibrado, com todas as hastes na horizontal, os pesos das quatro bolas\nA, B, C e D têm que satisfazer todas as seguintes três condições:\n1. A = B + C + D; e\n2. B + C = D; e\n3. B = C\n\nNesta tarefa, dados os pesos das quatro bolas, seu programa deve decidir se o móbile está ou não\ncompletamente equilibrado.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "12\n3\n3\n6\n",
+        "output": "S\n"
+      },
+      {
+        "input": "2002\n560\n560\n882\n",
+        "output": "N\n"
+      }
+    ]
+  },
+  {
+    "page_start": 46,
+    "title": "Prêmio do Milhão",
+    "name": "premiodomilhao",
+    "description_preview": "Alice e Bia criaram uma página na Internet com informações sobre o\nMacaco-prego-de-peito-amarelo, uma espécie em extinçã",
+    "description": "Alice e Bia criaram uma página na Internet com informações sobre o\nMacaco-prego-de-peito-amarelo, uma espécie em extinção. A página mostra como todos podem\najudar a manter o habitat natural para evitar que a espécie seja extinta.\nUma empresa gostou tanto da iniciativa de Alice e Bia que prometeu doar um prêmio para que as\nduas amigas possam realizar outras iniciativas semelhantes. A empresa decidiu que o prêmio seria\ndado quando a soma do número de acessos à página chegasse a 1 milhão.\nDada a lista de acessos diários que ocorreram à página de Alice e Bia, escreva um programa para\ndeterminar quantos dias foram necessários para a soma dos acessos chegar a 1 milhão e as amigas\nganharem o prêmio.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "5\n100\n99900\n400000\n500000\n600000\n",
+        "output": "4\n"
+      },
+      {
+        "input": "1\n1000000\n",
+        "output": "1\n"
+      }
+    ]
+  },
+  {
+    "page_start": 48,
+    "title": "Jogo de par ou ímpar",
+    "name": "jogodeparouimpar",
+    "description_preview": "Dois amigos, Alice e Bob, estão jogando um jogo muito simples, em que um deles grita ou \"par\" ou\n\"ímpar\" e o outro imedi",
+    "description": "Dois amigos, Alice e Bob, estão jogando um jogo muito simples, em que um deles grita ou \"par\" ou\n\"ímpar\" e o outro imediatamente responde ao contrário, respectivamente \"ímpar\" ou \"par\". Em\nseguida, ambos exibem ao mesmo tempo uma mão cada um, em que alguns dedos estão estendidos\ne outros dobrados. Então eles contam o número total de dedos estendidos. Se a soma for par, quem\ngritou \"par\" ganha. Se a soma for ímpar, quem gritou \"ímpar\" ganha. Por exemplo, suponhamos que\na Alice gritou \"par\" e o Bob respondeu \"ímpar\". Em seguida, Alice não deixou nenhum dos seus\ndedos estendidos, ao passo que Bob deixou três dedos estendidos. A soma então é três, que é\nímpar, portanto Bob ganhou. Seu programa deve determinar quem ganhou, tendo a informação de\nquem gritou par e o número de dedos estendidos de cada um.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "0\n0\n3\n",
+        "output": "1\n"
+      },
+      {
+        "input": "1\n0\n3\n",
+        "output": "0\n"
+      },
+      {
+        "input": "0\n1\n5\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "page_start": 50,
+    "title": "Lâmpadas",
+    "name": "lampadas",
+    "description_preview": "Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto tem duas\nlâmpadas. Vamos chamá-",
+    "description": "Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto tem duas\nlâmpadas. Vamos chamá-las de A e B. No hotel há dois interruptores, que chamaremos de I\n1\ne I\n2\n. Ao apertar I\n1\n, a lâmpada A troca de estado, ou seja, acende se estiver apagada e apaga se estiver acesa. Se\napertar I\n2\n, ambas as lâmpadas A e B trocam de estado. As lâmpadas inicialmente estão ambas apagadas. Seu\namigo resolveu bolar um desafio para você. Ele irá apertar os interruptores em uma certa sequência,\ne gostaria que você respondesse o estado final das lâmpadas A e B.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "3\n1 2 2\n",
+        "output": "1\n0\n"
+      },
+      {
+        "input": "4\n2 1 2 2\n",
+        "output": "0\n1\n"
+      }
+    ]
+  },
+  {
+    "page_start": 52,
+    "title": "Plantação de Morangos",
+    "name": "plantacaodemorangos",
+    "description_preview": "Os administradores da Fazenda Fartura planejam criar uma nova plantação de morangos, no formato\nretangular. Eles têm vár",
+    "description": "Os administradores da Fazenda Fartura planejam criar uma nova plantação de morangos, no formato\nretangular. Eles têm vários locais possíveis para a nova plantação, com diferentes dimensões de\ncomprimento e largura. Para os administradores, o melhor local é aquele que tem a maior área. Eles\ngostariam de ter um programa de computador que, dadas as dimensões de dois locais, determina o\nque tem maior área. Você pode ajudá-los?",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "30\n8\n11\n56\n",
+        "output": "616\n"
+      },
+      {
+        "input": "12\n38\n5\n20\n",
+        "output": "456\n"
+      }
+    ]
+  },
+  {
+    "page_start": 54,
+    "title": "Bondinho",
+    "name": "bondinho",
+    "description_preview": "A turma do colégio vai fazer uma excursão na serra e todos os alunos e monitores vão tomar um\nbondinho para subir até o ",
+    "description": "A turma do colégio vai fazer uma excursão na serra e todos os alunos e monitores vão tomar um\nbondinho para subir até o pico de uma montanha. A cabine do bondinho pode levar 50 pessoas no\nmáximo, contando alunos e monitores, durante uma viagem até o pico. Neste problema, dado como\nentrada o número de alunos A e o número de monitores M, você deve escrever um programa que\ndiga se é possível ou não levar todos os alunos e monitores em apenas uma viagem!",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "10\n20\n",
+        "output": "S\n"
+      },
+      {
+        "input": "12\n39\n",
+        "output": "N\n"
+      },
+      {
+        "input": "49\n1\n",
+        "output": "S\n"
+      }
+    ]
+  },
+  {
+    "page_start": 56,
+    "title": "Drone de Entrega",
+    "name": "dronedeentrega",
+    "description_preview": "A loja do Pará, especializada em vendas pela internet, está desenvolvendo drones para entrega de\ncaixas com as compras d",
+    "description": "A loja do Pará, especializada em vendas pela internet, está desenvolvendo drones para entrega de\ncaixas com as compras dos clientes. Cada caixa tem a forma de um paralelepípedo reto retângulo\n(ou seja, no formato de um tijolo).\nO drone entregará uma caixa de cada vez, e colocará a caixa diretamente dentro da casa do cliente,\natravés de uma janela. Todas as janelas dos clientes têm o formato retangular e estão sempre\ntotalmente abertas. O drone tem um aplicativo de visão computacional que calcula exatamente as\ndimensões H e L da janela. O drone consegue colocar a caixa através da janela somente quando\numa das faces da caixa está paralela à janela, mas consegue virar e rotacionar a caixa antes de\npassá-la pela janela.\nO aplicativo de controle do drone está quase pronto, mas falta um pequeno detalhe: um programa\nque, dadas as dimensões da maior janela do cliente e as dimensões da caixa que deve ser entregue,\ndetermine se o drone vai ser capaz de entregar a compra (pela janela) ou se a compra terá que ser\nentregue por meios normais.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "30\n50\n80\n80\n60\n",
+        "output": "S\n"
+      },
+      {
+        "input": "75\n100\n50\n100\n30\n",
+        "output": "N\n"
+      },
+      {
+        "input": "20\n22\n5\n20\n10\n",
+        "output": "S\n"
+      }
+    ]
+  },
+  {
+    "page_start": 58,
+    "title": "Basquete de robôs",
+    "name": "basquetederobos",
+    "description_preview": "A organização da OIBR, Olimpíada Internacional de Basquete de Robô, está começando a ter\nproblemas com dois times: os Bi",
+    "description": "A organização da OIBR, Olimpíada Internacional de Basquete de Robô, está começando a ter\nproblemas com dois times: os Bit Warriors e os Byte Bulls. É que os robôs desses times acertam\nquase todos os lançamentos, de qualquer posição na quadra! Pensando bem, o jogo de basquete\nficaria mesmo sem graça se jogadores conseguissem acertar qualquer lançamento, não é mesmo?\nUma das medidas que a OIBR está implantando é uma nova pontuação para os lançamentos, de\nacordo com a distância do robô para o início da quadra. A quadra tem 2000 centímetros de\ncomprimento, como na figura.\n\nDada a distância D do robô até o início da quadra, onde está a cesta, a regra é a seguinte:\n Se D ≤ 800, a cesta vale 1 ponto;\n Se 800 < D ≤ 1400, a cesta vale 2 pontos;\n Se 1400 < D ≤ 2000, a cesta vale 3 pontos.\nA organização da OIBR precisa de ajuda para automatizar o placar do jogo. Dado o valor da distância\nD, você deve escrever um programa para calcular o número de pontos do lançamento.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "1720\n",
+        "output": "3\n"
+      },
+      {
+        "input": "250\n",
+        "output": "1\n"
+      },
+      {
+        "input": "1400\n",
+        "output": "2\n"
+      }
+    ]
+  },
+  {
+    "page_start": 60,
+    "title": "Álbum da copa",
+    "name": "albumdacopa",
+    "description_preview": "Em ano de Copa do Mundo de Futebol, o álbum de figurinhas oficial é sempre um grande sucesso\nentre crianças e também ent",
+    "description": "Em ano de Copa do Mundo de Futebol, o álbum de figurinhas oficial é sempre um grande sucesso\nentre crianças e também entre adultos. Para quem não conhece, o álbum contém espaços\nnumerados de 1 a N para colar as figurinhas; cada figurinha, também numerada de 1 a N, é uma\npequena foto de um jogador de uma das seleções que jogará a Copa do Mundo. O objetivo é colar\ntodas as figurinhas nos respectivos espaços no álbum, de modo a completar o álbum (ou seja, não\ndeixar nenhum espaço sem a correspondente figurinha).\nAs figurinhas são vendidas em envelopes fechados, de forma que o comprador não sabe quais\nfigurinhas está comprando, e pode ocorrer de comprar uma figurinha que ele já tenha colado no\nálbum.\nPara ajudar os usuários, a empresa responsável pela venda do álbum e das figurinhas quer criar um\naplicativo que permita gerenciar facilmente as figurinhas que faltam para completar o álbum e está\nsolicitando a sua ajuda.\nDados o número total de espaços e figurinhas do álbum, e uma lista das figurinhas já compradas\n(que pode conter figurinhas repetidas), sua tarefa é determinar quantas figurinhas faltam para\ncompletar o álbum.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "10\n3\n5\n8\n3\n",
+        "output": "7\n"
+      },
+      {
+        "input": "5\n6\n3\n3\n2\n3\n3\n3\n",
+        "output": "3\n"
+      },
+      {
+        "input": "3\n4\n2\n1\n3\n3\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "page_start": 62,
+    "title": "A idade de Dona Mônica",
+    "name": "aidadededonamonica",
+    "description_preview": "Dona Mônica é mãe de três filhos que têm idades diferentes. Ela notou que, neste ano, a soma das\nidades dos seus três fi",
+    "description": "Dona Mônica é mãe de três filhos que têm idades diferentes. Ela notou que, neste ano, a soma das\nidades dos seus três filhos é igual à idade dela. Neste problema, dada a idade de dona Mônica e as\nidades de dois dos filhos, seu programa deve computar e imprimir a idade do filho mais velho.\nPor exemplo, se sabemos que dona Mônica tem 52 anos e as idades conhecidas de dois dos filhos\nsão 14 e 18 anos, então a idade do outro filho, que não era conhecida, tem que ser 20 anos, pois a\nsoma das três idades tem que ser 52. Portanto, a idade do filho mais velho é 20. Em mais um\nexemplo, se dona Mônica tem 47 anos e as idades de dois dos filhos são 21 e 9 anos, então o outro\nfilho tem que ter 17 anos e, portanto, a idade do filho mais velho é 21.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "52\n14\n18\n",
+        "output": "20\n"
+      },
+      {
+        "input": "47\n21\n9\n",
+        "output": "21\n"
+      }
+    ]
+  },
+  {
+    "page_start": 64,
+    "title": "Dominó",
+    "name": "domino",
+    "description_preview": "O jogo de dominó tradicional, conhecido como duplo-6, possui 28 peças. Cada peça está dividida em\ndois quadrados e dentr",
+    "description": "O jogo de dominó tradicional, conhecido como duplo-6, possui 28 peças. Cada peça está dividida em\ndois quadrados e dentro de cada quadrado há entre 0 e 6 círculos. O jogo é chamado de duplo-6\njustamente porque esse é o maior número de círculos que aparece num quadrado de uma peça. A\nfigura ao lado mostra uma forma de organizar as 28 peças do jogo duplo-6 em 7 linhas. Essa figura\npermite ver claramente quantas peças haveria num jogo de dominó, por exemplo, do tipo duplo-4:\nseriam todas as peças das 5 primeiras linhas, 15 peças no total. Também poderíamos ver, seguindo\no padrão da figura, quantas peças possui o jogo de dominó conhecido como mexicano, que é o\nduplo-12. Seriam 91 peças, correspondendo a 13 linhas.\n\nPara a nossa sorte, existe uma fórmula com a qual podemos calcular facilmente o número de peças\nde um jogo do tipo duplo-N, para um número N natural qualquer: ((N+1)*(N+2))/2. Neste problema,\nestamos precisando da sua ajuda para escrever um programa que, dado o valor N, use esta fórmula\npara calcular e imprimir quantas peças existem num jogo de dominó do tipo duplo-N.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "6\n",
+        "output": "28\n"
+      },
+      {
+        "input": "12\n",
+        "output": "91\n"
+      }
+    ]
+  },
+  {
+    "page_start": 66,
+    "title": "Sequência Secreta",
+    "name": "sequenciasecreta",
+    "description_preview": "Na calçada em frente ao Palácio Imperial, não se sabe a razão, existe uma sequência de N números\ndesenhados no chão. A s",
+    "description": "Na calçada em frente ao Palácio Imperial, não se sabe a razão, existe uma sequência de N números\ndesenhados no chão. A sequência tem a seguinte forma: ela começa e termina com o número 1;\napenas os números 1 e 2 aparecem nela; e o número 2 aparece pelo menos uma vez. Veja um\nexemplo na coluna (a) da figura abaixo.\n\nNinguém sabe o significado da sequência e, justamente por isso, várias teorias malucas surgiram.\nUma delas diz que a sequência representa, na verdade, apenas um valor que estaria relacionado a\num segredo dos imperadores. Esse valor é a quantidade máxima de números da sequência que\npoderiam ser marcados com um círculo, de modo que a sequência de números marcados não\ncontenha dois números iguais consecutivos.\nA coluna (b) da figura acima ilustra uma sequência de 4 números marcados que obedece a restrição\nacima. Só que é possível marcar 7 números, como mostra a coluna (c) da figura.\nNeste problema, dada a sequência original de números desenhados no chão da calçada, seu\nprograma deve computar e imprimir a quantidade máxima de números da sequência que poderiam\nser marcados com um círculo sem que haja dois números iguais consecutivos na sequência\nmarcada.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "5\n1\n1\n1\n2\n1\n",
+        "output": "3\n"
+      },
+      {
+        "input": "12\n1\n2\n1\n2\n2\n2\n1\n1\n2\n2\n1\n1\n",
+        "output": "7\n"
+      }
+    ]
+  },
+  {
+    "page_start": 68,
+    "title": "3",
+    "name": "3",
+    "description_preview": "",
+    "description": "",
+    "examples_count": 0,
+    "examples": []
+  },
+  {
+    "page_start": 70,
+    "title": "5",
+    "name": "5",
+    "description_preview": "",
+    "description": "",
+    "examples_count": 1,
+    "examples": [
+      {
+        "input": "221\n11\n",
+        "output": "34\n"
+      }
+    ]
+  },
+  {
+    "page_start": 72,
+    "title": "1000",
+    "name": "1000",
+    "description_preview": "",
+    "description": "",
+    "examples_count": 0,
+    "examples": []
+  },
+  {
+    "page_start": 74,
+    "title": "12",
+    "name": "12",
+    "description_preview": "",
+    "description": "",
+    "examples_count": 5,
+    "examples": [
+      {
+        "input": "12\n45\n188\n",
+        "output": "1\n"
+      },
+      {
+        "input": "67\n67\n67\n",
+        "output": "3\n"
+      },
+      {
+        "input": "111\n463\n463\n",
+        "output": "2\n"
+      },
+      {
+        "input": "72\n72\n345\n",
+        "output": "1\n"
+      },
+      {
+        "input": "30\n30\n55\n",
+        "output": "2\n"
+      }
+    ]
+  },
+  {
+    "page_start": 76,
+    "title": "Escher",
+    "name": "escher",
+    "description_preview": "M. C. Escher foi um artista gráfico holandês que fazia incríveis ilustrações onde preenchia a tela com\nobjetos auto-simi",
+    "description": "M. C. Escher foi um artista gráfico holandês que fazia incríveis ilustrações onde preenchia a tela com\nobjetos auto-similares, cujos contornos encaixam neles próprios, criando simetrias geométricas muito\nimpressionantes. Veja um exemplo dessa ideia na figura, que mostra um objeto que é um perfil\nortogonal definido por uma sequência de números naturais representando a sequência de alturas.\nPodemos pegar uma cópia do objeto, rotacionar 180 graus e encaixar perfeitamente no objeto\noriginal, formando um retângulo.\n\nEm termos mais gerais, se uma sequência de N números naturais representando a sequência de\nalturas for A1, A2, A3,…,AN-2,AN-1, AN, o perfil definido será chamado de perfil Escher se tivermos\nA1+AN igual a A2+AN-1 igual a A3+AN-2, e assim por diante. Neste problema, será dada a sequência\nde alturas que definem o perfil e seu programa deve decidir se o perfil é Escher, ou não.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "12\n3 6 6 4 3 2 8 7 6 4 4 7\n",
+        "output": "S\n"
+      },
+      {
+        "input": "5\n2 1 9 13 12\n",
+        "output": "N\n"
+      }
+    ]
+  },
+  {
+    "page_start": 78,
+    "title": "Piloto Automático",
+    "name": "pilotoautomatico",
+    "description_preview": "Uma grande fábrica de carros elétricos está realizando melhorias no sistema de piloto automático e\nprecisa da sua ajuda ",
+    "description": "Uma grande fábrica de carros elétricos está realizando melhorias no sistema de piloto automático e\nprecisa da sua ajuda para implementar um programa que decida se um carro B, que está trafegando\nno meio de dois carros A e C, precisa acelerar, desacelerar ou manter a velocidade atual. Os carros\nsão iguais e os sensores do piloto automático vão fornecer, como entrada, a posição atual da traseira\ndos três carros. Veja um exemplo na figura.\n\nO carro B precisa ser acelerado se a distância da sua traseira para a traseira do carro A for menor do\nque a distância da sua traseira para a traseira do carro C. Se for maior, ele precisa ser desacelerado.\nSe for igual, precisa manter a velocidade atual. Quer dizer, o carro B precisa ser acelerado se (B-A) <\n(C-B), desacelerado se (B-A) > (C-B) e manter a velocidade se (B-A) for igual a (C-B).",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "10\n23\n38\n",
+        "output": "1\n"
+      },
+      {
+        "input": "105\n212\n319\n",
+        "output": "0\n"
+      },
+      {
+        "input": "80\n120\n132\n",
+        "output": "-1\n"
+      }
+    ]
+  },
+  {
+    "page_start": 80,
+    "title": "Relógio de Atleta",
+    "name": "relogiodeatleta",
+    "description_preview": "Uma empresa está desenvolvendo um novo relógio eletrônico para atletas de alto desempenho. Uma\ndas funcionalidades do no",
+    "description": "Uma empresa está desenvolvendo um novo relógio eletrônico para atletas de alto desempenho. Uma\ndas funcionalidades do novo relógio é que ele vai medir a frequência cardíaca atual (batidas do\ncoração por minuto) e a capacidade de oxigenação atual do atleta. O relógio também vai calcular e\narmazenar a frequência cardíaca em repouso do atleta.\nOs projetistas querem que o relógio emita um aviso para o atleta de que ele ou ela deve:\n diminuir o ritmo do exercício se a frequência cardíaca atual é maior do que três vezes a\nfrequência cardíaca em repouso ou a capacidade de oxigenação atual é menor do que 95;\n aumentar o ritmo do exercício se a frequência cardíaca atual é menor do que duas vezes\nfrequência cardíaca em repouso e a capacidade de oxigenação atual é maior do que 97;\n manter o ritmo de exercício se nenhuma das condições anteriores ocorrer.\nDadas a frequência cardíaca em repouso, a frequência cardíaca atual e a capacidade de oxigenação\natual obtidas pelo relógio, escreva um programa que produza a sugestão que o relógio deve emitir.",
+    "examples_count": 4,
+    "examples": [
+      {
+        "input": "60\n119\n98\n",
+        "output": "aumentar\n"
+      },
+      {
+        "input": "60\n190\n100\n",
+        "output": "diminuir\n"
+      },
+      {
+        "input": "50\n100\n95\n",
+        "output": "manter\n"
+      },
+      {
+        "input": "50\n100\n94\n",
+        "output": "diminuir\n"
+      }
+    ]
+  },
+  {
+    "page_start": 82,
+    "title": "Idade de Camila",
+    "name": "idadedecamila",
+    "description_preview": "Cibele, Camila e Celeste são três irmãs inseparáveis. Estão sempre juntas e adoram fazer esportes,\nler, cozinhar, jogar ",
+    "description": "Cibele, Camila e Celeste são três irmãs inseparáveis. Estão sempre juntas e adoram fazer esportes,\nler, cozinhar, jogar no computador... Agora estão aprendendo a programar computadores para\ndesenvolverem seus próprios jogos.\nMas nada disso interessa para esta tarefa: estamos interessados apenas nas suas idades. Sabemos\nque Cibele nasceu antes de Camila e Celeste nasceu depois de Camila.\nDados três números inteiros indicando as idades das irmãs, escreva um programa para determinar a\nidade de Camila.",
+    "examples_count": 4,
+    "examples": [
+      {
+        "input": "6\n9\n7\n",
+        "output": "7\n"
+      },
+      {
+        "input": "34\n36\n38\n",
+        "output": "36\n"
+      },
+      {
+        "input": "22\n25\n22\n",
+        "output": "22\n"
+      },
+      {
+        "input": "91\n91\n91\n",
+        "output": "91\n"
+      }
+    ]
+  },
+  {
+    "page_start": 84,
+    "title": "Plano de Internet",
+    "name": "planodeinternet",
+    "description_preview": "João conseguiu contratar um ótimo plano de Internet para o seu telefone celular. O plano permite que\nJoão utilize uma qu",
+    "description": "João conseguiu contratar um ótimo plano de Internet para o seu telefone celular. O plano permite que\nJoão utilize uma quota de até X megabytes de dados por mês para navegar na Internet. Se João não\nusa toda a sua quota no mês, os megabytes que ele não usou são adicionados à quota do mês\nseguinte. Pelo contrato, João nunca pode usar mais megabytes do que a sua quota corrente. Por\nexemplo, se X=200 megabytes e João usou 150 no primeiro mês e 220 megabytes no segundo mês,\nentão no terceiro mês João tem uma quota de 230 megabytes para usar (50 megabytes são\ntransferidos do primeiro para o segundo mês, 30 megabytes são transferidos do segundo para o\nterceiro mês). Nesta tarefa são dados o valor da quota mensal X e quantos megabytes João usou em\ncada um dos primeiros N meses do plano. Você deve determinar quantos megabytes João tem para\nusar no mês N+1.",
+    "examples_count": 3,
+    "examples": [
+      {
+        "input": "100\n2\n50\n120\n",
+        "output": "130\n"
+      },
+      {
+        "input": "10\n3\n4\n6\n2\n",
+        "output": "28\n"
+      },
+      {
+        "input": "100\n2\n100\n100\n",
+        "output": "100\n"
+      }
+    ]
+  },
+  {
+    "page_start": 86,
+    "title": "Torneio de tênis",
+    "name": "torneiodetenis",
+    "description_preview": "A prefeitura contratou um novo professor para ensinar as crianças do bairro a jogar tênis na quadra\nde tênis do parque m",
+    "description": "A prefeitura contratou um novo professor para ensinar as crianças do bairro a jogar tênis na quadra\nde tênis do parque municipal. O professor convidou todas as crianças do bairro interessadas em\naprender a jogar tênis. Ao final do primeiro mês de aulas e treinamentos foi organizado um torneio\nem que cada participante disputou exatamente seis jogos. O professor vai usar o desempenho no\ntorneio para separar as crianças em três grupos, de forma a ter grupos de treino em que os\nparticipantes tenham habilidades mais ou menos iguais, usando o seguinte critério:\n participantes que venceram 5 ou 6 jogos serão colocados no Grupo 1;\n participantes que venceram 3 ou 4 jogos serão colocados no Grupo 2;\n participantes que venceram 1 ou 2 jogos serão colocados no Grupo 3;\n participantes que não venceram nenhum jogo não serão convidados a continuar com os\ntreinamentos.\nDada uma lista com o resultado dos jogos de um participante, escreva um programa para\ndeterminar em qual grupo ele será colocado.",
+    "examples_count": 2,
+    "examples": [
+      {
+        "input": "V\nV\nP\nP\nP\nV\n",
+        "output": "2\n"
+      },
+      {
+        "input": "P\nP\nP\nP\nP\nP\n",
+        "output": "-1\n"
+      }
+    ]
+  }
+]
