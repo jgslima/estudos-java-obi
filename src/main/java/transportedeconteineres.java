@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class transportedeconteineres {
 
     /**
@@ -36,5 +38,15 @@ public class transportedeconteineres {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        long a = scanner.nextLong();
+        long b = scanner.nextLong();
+        long c = scanner.nextLong();
+        long x = scanner.nextLong();
+        long y = scanner.nextLong();
+        long z = scanner.nextLong();
+
+        long quantidade = (x / a) * (y / b) * (z / c);
+        System.out.println(quantidade);
     }
 }

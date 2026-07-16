@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class desafiodomaiornumero {
 
     /**
@@ -23,5 +25,19 @@ public class desafiodomaiornumero {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int maior = 0;
+
+        while (true) {
+            int valor = scanner.nextInt();
+
+            if (valor == 0) {
+                break;
+            }
+
+            maior = Math.max(maior, valor);
+        }
+
+        System.out.println(maior);
     }
 }

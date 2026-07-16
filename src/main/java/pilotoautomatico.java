@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class pilotoautomatico {
 
     /**
@@ -27,5 +29,19 @@ public class pilotoautomatico {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        int esquerda = b - a;
+        int direita = c - b;
+
+        if (esquerda < direita) {
+            System.out.println(1);
+        } else if (esquerda > direita) {
+            System.out.println(-1);
+        } else {
+            System.out.println(0);
+        }
     }
 }

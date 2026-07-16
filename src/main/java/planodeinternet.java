@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class planodeinternet {
 
     /**
@@ -34,5 +36,15 @@ public class planodeinternet {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int quota = scanner.nextInt();
+        int meses = scanner.nextInt();
+        int usado = 0;
+
+        for (int i = 0; i < meses; i++) {
+            usado += scanner.nextInt();
+        }
+
+        System.out.println(quota * (meses + 1) - usado);
     }
 }

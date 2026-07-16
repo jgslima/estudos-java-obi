@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class numerodeenvelopes {
 
     /**
@@ -38,5 +40,14 @@ public class numerodeenvelopes {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int resposta = Integer.MAX_VALUE;
+
+        for (int i = 0; i < n; i++) {
+            resposta = Math.min(resposta, scanner.nextInt());
+        }
+
+        System.out.println(resposta);
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class saldodovovo {
 
     /**
@@ -29,5 +31,16 @@ public class saldodovovo {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int dias = scanner.nextInt();
+        int saldo = scanner.nextInt();
+        int menorSaldo = saldo;
+
+        for (int i = 0; i < dias; i++) {
+            saldo += scanner.nextInt();
+            menorSaldo = Math.min(menorSaldo, saldo);
+        }
+
+        System.out.println(menorSaldo);
     }
 }

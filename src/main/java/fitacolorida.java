@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class fitacolorida {
 
     /**
@@ -31,5 +33,44 @@ public class fitacolorida {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] resposta = new int[n];
+        int infinito = 1_000_000;
+        int ultimaCorZero = -infinito;
+
+        for (int i = 0; i < n; i++) {
+            int valor = scanner.nextInt();
+
+            if (valor == 0) {
+                ultimaCorZero = i;
+                resposta[i] = 0;
+            } else {
+                resposta[i] = i - ultimaCorZero;
+            }
+        }
+
+        ultimaCorZero = infinito;
+
+        for (int i = n - 1; i >= 0; i--) {
+            if (resposta[i] == 0) {
+                ultimaCorZero = i;
+            } else {
+                resposta[i] = Math.min(resposta[i], ultimaCorZero - i);
+                resposta[i] = Math.min(resposta[i], 9);
+            }
+        }
+
+        StringBuilder saida = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            if (i > 0) {
+                saida.append(' ');
+            }
+
+            saida.append(resposta[i]);
+        }
+
+        System.out.println(saida);
     }
 }

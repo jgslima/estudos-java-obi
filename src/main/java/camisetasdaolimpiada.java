@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class camisetasdaolimpiada {
 
     /**
@@ -35,5 +37,24 @@ public class camisetasdaolimpiada {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int pequenasPedidas = 0;
+        int mediasPedidas = 0;
+
+        for (int i = 0; i < n; i++) {
+            int tamanho = scanner.nextInt();
+
+            if (tamanho == 1) {
+                pequenasPedidas++;
+            } else {
+                mediasPedidas++;
+            }
+        }
+
+        int pequenas = scanner.nextInt();
+        int medias = scanner.nextInt();
+
+        System.out.println(pequenas >= pequenasPedidas && medias >= mediasPedidas ? "S" : "N");
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class lampadas {
 
     /**
@@ -37,5 +39,23 @@ public class lampadas {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int a = 0;
+        int b = 0;
+
+        for (int i = 0; i < n; i++) {
+            int interruptor = scanner.nextInt();
+
+            if (interruptor == 1) {
+                a = 1 - a;
+            } else {
+                a = 1 - a;
+                b = 1 - b;
+            }
+        }
+
+        System.out.println(a);
+        System.out.println(b);
     }
 }

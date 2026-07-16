@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class albumdacopa {
 
     /**
@@ -34,5 +36,21 @@ public class albumdacopa {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int total = scanner.nextInt();
+        int compradas = scanner.nextInt();
+        boolean[] tem = new boolean[total + 1];
+        int diferentes = 0;
+
+        for (int i = 0; i < compradas; i++) {
+            int figurinha = scanner.nextInt();
+
+            if (!tem[figurinha]) {
+                tem[figurinha] = true;
+                diferentes++;
+            }
+        }
+
+        System.out.println(total - diferentes);
     }
 }

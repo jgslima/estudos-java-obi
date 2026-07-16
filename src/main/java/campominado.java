@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class campominado {
 
     /**
@@ -32,5 +34,30 @@ public class campominado {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] minas = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            minas[i] = scanner.nextInt();
+        }
+
+        StringBuilder saida = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            int total = minas[i];
+
+            if (i > 0) {
+                total += minas[i - 1];
+            }
+
+            if (i + 1 < n) {
+                total += minas[i + 1];
+            }
+
+            saida.append(total).append('\n');
+        }
+
+        System.out.print(saida);
     }
 }

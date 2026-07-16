@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class aidadededonamonica {
 
     /**
@@ -28,5 +30,12 @@ public class aidadededonamonica {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int monica = scanner.nextInt();
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = monica - a - b;
+
+        System.out.println(Math.max(a, Math.max(b, c)));
     }
 }

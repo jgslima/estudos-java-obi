@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class sedex {
 
     /**
@@ -30,5 +32,16 @@ public class sedex {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int diametro = scanner.nextInt();
+        int altura = scanner.nextInt();
+        int largura = scanner.nextInt();
+        int profundidade = scanner.nextInt();
+
+        System.out.println(
+                altura >= diametro && largura >= diametro && profundidade >= diametro
+                        ? "S"
+                        : "N"
+        );
     }
 }

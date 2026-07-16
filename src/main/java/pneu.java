@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class pneu {
 
     /**
@@ -25,5 +27,10 @@ public class pneu {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int desejada = scanner.nextInt();
+        int lida = scanner.nextInt();
+
+        System.out.println(desejada - lida);
     }
 }

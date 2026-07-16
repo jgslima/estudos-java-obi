@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class sequenciasecreta {
 
     /**
@@ -36,5 +38,20 @@ public class sequenciasecreta {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int anterior = -1;
+        int resposta = 0;
+
+        for (int i = 0; i < n; i++) {
+            int atual = scanner.nextInt();
+
+            if (atual != anterior) {
+                resposta++;
+                anterior = atual;
+            }
+        }
+
+        System.out.println(resposta);
     }
 }

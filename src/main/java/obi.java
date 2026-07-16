@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class obi {
 
     /**
@@ -35,5 +37,20 @@ public class obi {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int competidores = scanner.nextInt();
+        int minimo = scanner.nextInt();
+        int convidados = 0;
+
+        for (int i = 0; i < competidores; i++) {
+            int fase1 = scanner.nextInt();
+            int fase2 = scanner.nextInt();
+
+            if (fase1 + fase2 >= minimo) {
+                convidados++;
+            }
+        }
+
+        System.out.println(convidados);
     }
 }

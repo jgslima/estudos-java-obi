@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class campeonato {
 
     /**
@@ -28,5 +30,26 @@ public class campeonato {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int cv = scanner.nextInt();
+        int ce = scanner.nextInt();
+        int cs = scanner.nextInt();
+        int fv = scanner.nextInt();
+        int fe = scanner.nextInt();
+        int fs = scanner.nextInt();
+        int pontosC = cv * 3 + ce;
+        int pontosF = fv * 3 + fe;
+
+        if (pontosC > pontosF) {
+            System.out.println("C");
+        } else if (pontosF > pontosC) {
+            System.out.println("F");
+        } else if (cs > fs) {
+            System.out.println("C");
+        } else if (fs > cs) {
+            System.out.println("F");
+        } else {
+            System.out.println("=");
+        }
     }
 }

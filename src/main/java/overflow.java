@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class overflow {
 
     /**
@@ -41,5 +43,13 @@ public class overflow {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        long limite = scanner.nextLong();
+        long p = scanner.nextLong();
+        String operacao = scanner.next();
+        long q = scanner.nextLong();
+        long resultado = operacao.equals("+") ? p + q : p * q;
+
+        System.out.println(resultado > limite ? "OVERFLOW" : "OK");
     }
 }

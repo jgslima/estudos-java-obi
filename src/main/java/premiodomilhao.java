@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class premiodomilhao {
 
     /**
@@ -30,5 +32,17 @@ public class premiodomilhao {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int dias = scanner.nextInt();
+        int soma = 0;
+
+        for (int i = 1; i <= dias; i++) {
+            soma += scanner.nextInt();
+
+            if (soma >= 1_000_000) {
+                System.out.println(i);
+                return;
+            }
+        }
     }
 }

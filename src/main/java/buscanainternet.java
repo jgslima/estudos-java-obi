@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class buscanainternet {
 
     /**
@@ -23,5 +25,8 @@ public class buscanainternet {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
+        System.out.println(t * 4);
     }
 }

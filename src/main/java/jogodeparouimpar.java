@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class jogodeparouimpar {
 
     /**
@@ -28,5 +30,13 @@ public class jogodeparouimpar {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int par = scanner.nextInt();
+        int d1 = scanner.nextInt();
+        int d2 = scanner.nextInt();
+        boolean somaPar = (d1 + d2) % 2 == 0;
+        int vencedor = somaPar ? par : 1 - par;
+
+        System.out.println(vencedor);
     }
 }

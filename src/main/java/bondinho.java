@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class bondinho {
 
     /**
@@ -22,5 +24,9 @@ public class bondinho {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int alunos = scanner.nextInt();
+        int monitores = scanner.nextInt();
+        System.out.println(alunos + monitores <= 50 ? "S" : "N");
     }
 }

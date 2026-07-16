@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class gangorra {
 
     /**
@@ -46,5 +48,20 @@ public class gangorra {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int p1 = scanner.nextInt();
+        int c1 = scanner.nextInt();
+        int p2 = scanner.nextInt();
+        int c2 = scanner.nextInt();
+        int esquerda = p1 * c1;
+        int direita = p2 * c2;
+
+        if (esquerda == direita) {
+            System.out.println(0);
+        } else if (esquerda > direita) {
+            System.out.println(-1);
+        } else {
+            System.out.println(1);
+        }
     }
 }

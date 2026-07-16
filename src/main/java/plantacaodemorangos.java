@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class plantacaodemorangos {
 
     /**
@@ -24,5 +26,12 @@ public class plantacaodemorangos {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a1 = scanner.nextInt();
+        int b1 = scanner.nextInt();
+        int a2 = scanner.nextInt();
+        int b2 = scanner.nextInt();
+
+        System.out.println(Math.max(a1 * b1, a2 * b2));
     }
 }

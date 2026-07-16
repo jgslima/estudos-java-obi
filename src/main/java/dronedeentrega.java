@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class dronedeentrega {
 
     /**
@@ -31,5 +34,12 @@ public class dronedeentrega {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] caixa = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
+        int[] janela = {scanner.nextInt(), scanner.nextInt()};
+        Arrays.sort(caixa);
+        Arrays.sort(janela);
+
+        System.out.println(caixa[0] <= janela[0] && caixa[1] <= janela[1] ? "S" : "N");
     }
 }

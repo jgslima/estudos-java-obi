@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class garcom {
 
     /**
@@ -28,5 +30,19 @@ public class garcom {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int bandejas = scanner.nextInt();
+        int quebrados = 0;
+
+        for (int i = 0; i < bandejas; i++) {
+            int latas = scanner.nextInt();
+            int copos = scanner.nextInt();
+
+            if (latas > copos) {
+                quebrados += copos;
+            }
+        }
+
+        System.out.println(quebrados);
     }
 }

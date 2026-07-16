@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class idadedecamila {
 
     /**
@@ -22,5 +25,9 @@ public class idadedecamila {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] idades = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
+        Arrays.sort(idades);
+        System.out.println(idades[1]);
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class corrida {
 
     /**
@@ -32,5 +34,25 @@ public class corrida {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int competidores = scanner.nextInt();
+        int voltas = scanner.nextInt();
+        long melhorTempo = Long.MAX_VALUE;
+        int vencedor = 1;
+
+        for (int i = 1; i <= competidores; i++) {
+            long soma = 0;
+
+            for (int j = 0; j < voltas; j++) {
+                soma += scanner.nextInt();
+            }
+
+            if (soma < melhorTempo) {
+                melhorTempo = soma;
+                vencedor = i;
+            }
+        }
+
+        System.out.println(vencedor);
     }
 }

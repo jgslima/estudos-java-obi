@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class avioesdepapel {
 
     /**
@@ -39,5 +41,11 @@ public class avioesdepapel {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int competidores = scanner.nextInt();
+        int folhas = scanner.nextInt();
+        int porCompetidor = scanner.nextInt();
+
+        System.out.println(folhas >= competidores * porCompetidor ? "S" : "N");
     }
 }

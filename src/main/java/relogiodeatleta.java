@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class relogiodeatleta {
 
     /**
@@ -32,5 +34,17 @@ public class relogiodeatleta {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int repouso = scanner.nextInt();
+        int frequencia = scanner.nextInt();
+        int oxigenacao = scanner.nextInt();
+
+        if (frequencia > 3 * repouso || oxigenacao < 95) {
+            System.out.println("diminuir");
+        } else if (frequencia < 2 * repouso && oxigenacao > 97) {
+            System.out.println("aumentar");
+        } else {
+            System.out.println("manter");
+        }
     }
 }

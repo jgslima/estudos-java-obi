@@ -1,3 +1,7 @@
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 public class fila {
 
     /**
@@ -33,5 +37,33 @@ public class fila {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] fila = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            fila[i] = scanner.nextInt();
+        }
+
+        int m = scanner.nextInt();
+        Set<Integer> saiu = new HashSet<>();
+
+        for (int i = 0; i < m; i++) {
+            saiu.add(scanner.nextInt());
+        }
+
+        StringBuilder saida = new StringBuilder();
+
+        for (int pessoa : fila) {
+            if (!saiu.contains(pessoa)) {
+                if (!saida.isEmpty()) {
+                    saida.append(' ');
+                }
+
+                saida.append(pessoa);
+            }
+        }
+
+        System.out.println(saida);
     }
 }

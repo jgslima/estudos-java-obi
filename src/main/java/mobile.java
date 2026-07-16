@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class mobile {
 
     /**
@@ -28,5 +30,13 @@ public class mobile {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        int d = scanner.nextInt();
+
+        boolean equilibrado = a == b + c + d && b + c == d && b == c;
+        System.out.println(equilibrado ? "S" : "N");
     }
 }

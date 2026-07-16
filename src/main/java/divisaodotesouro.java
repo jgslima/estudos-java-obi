@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class divisaodotesouro {
 
     /**
@@ -27,5 +29,11 @@ public class divisaodotesouro {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int moedas = scanner.nextInt();
+        int marinheiros = scanner.nextInt();
+        int porMarinheiro = moedas / (marinheiros + 2);
+
+        System.out.println(porMarinheiro * 2);
     }
 }

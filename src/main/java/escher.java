@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class escher {
 
     /**
@@ -31,5 +33,23 @@ public class escher {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] alturas = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            alturas[i] = scanner.nextInt();
+        }
+
+        int soma = alturas[0] + alturas[n - 1];
+
+        for (int i = 1; i < n; i++) {
+            if (alturas[i] + alturas[n - 1 - i] != soma) {
+                System.out.println("N");
+                return;
+            }
+        }
+
+        System.out.println("S");
     }
 }

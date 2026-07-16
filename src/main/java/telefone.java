@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class telefone {
 
     /**
@@ -35,5 +37,32 @@ public class telefone {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String entrada = scanner.nextLine();
+        StringBuilder saida = new StringBuilder();
+
+        for (char c : entrada.toCharArray()) {
+            if (c == '-') {
+                saida.append('-');
+            } else if (c >= 'A' && c <= 'C') {
+                saida.append('2');
+            } else if (c >= 'D' && c <= 'F') {
+                saida.append('3');
+            } else if (c >= 'G' && c <= 'I') {
+                saida.append('4');
+            } else if (c >= 'J' && c <= 'L') {
+                saida.append('5');
+            } else if (c >= 'M' && c <= 'O') {
+                saida.append('6');
+            } else if (c >= 'P' && c <= 'S') {
+                saida.append('7');
+            } else if (c >= 'T' && c <= 'V') {
+                saida.append('8');
+            } else {
+                saida.append('9');
+            }
+        }
+
+        System.out.println(saida);
     }
 }

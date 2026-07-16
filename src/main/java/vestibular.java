@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class vestibular {
 
     /**
@@ -31,5 +33,18 @@ public class vestibular {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        String gabarito = scanner.next();
+        String respostas = scanner.next();
+        int acertos = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (gabarito.charAt(i) == respostas.charAt(i)) {
+                acertos++;
+            }
+        }
+
+        System.out.println(acertos);
     }
 }
