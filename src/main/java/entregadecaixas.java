@@ -14,6 +14,18 @@ public class entregadecaixas {
      *
      * Neste problema, os tamanhos das três caixas são dados em ordem crescente e seu programa deve
      * computar o número mínimo de viagens que o drone pode fazer para transportar todas as três caixas.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro A. A segunda linha da entrada contém um inteiro B. A
+     * terceira linha da entrada contém um inteiro C. Os três inteiros representam os tamanhos das três
+     * caixas.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma linha contendo um inteiro, representando o número mínimo de
+     * viagens que o drone pode fazer para transportar todas as três caixas.
+     *
+     * Restrições:
+     *  1 ≤ A ≤ B ≤ C ≤ 1000
      * </pre>
      */
     public static void main(String[] args) {

@@ -12,6 +12,19 @@ public class garcom {
      * conseguirá entregá-la sem deixar cair.
      * Escreva um programa que, dado o número de latas e copos em cada bandeja que o garçom tentou
      * entregar, imprime o total de copos que ele quebrou.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro N representando o número de bandejas que o garçom
+     * tentou entregar. As N linhas seguintes representam as N bandejas. Cada linha contém dois inteiros L
+     * e C, indicando o número de latas e o número de copos naquela bandeja, respectivamente.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma única linha, contendo um único inteiro, indicando o número total de
+     * copos que o garçom quebrou.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 100
+     *  0 ≤ L, C ≤ 100
      * </pre>
      */
     public static void main(String[] args) {

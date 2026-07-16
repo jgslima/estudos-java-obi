@@ -15,6 +15,23 @@ public class obi {
      * obtido 200 pontos na primeira fase e 235 pontos na segunda fase será convidado para o curso na
      * Unicamp. Já um competidor que tenha obtido 200 pontos na primeira fase e 234 pontos na segunda
      * fase não será convidado.
+     *
+     * Entrada:
+     * A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão. A
+     * primeira linha da entrada contém dois números inteiros N e P, representando respectivamente o
+     * número de competidores e o número mínimo de pontos para ser convidado. Cada uma das N linhas
+     * seguintes contém dois números inteiros X e Y indicando a pontuação de um competidor em cada
+     * uma das fases.
+     *
+     * Saída:
+     * Seu programa deve imprimir na saída padrão uma única linha contendo um único inteiro, indicando o
+     * número de competidores que serão convidados a participar do curso na Unicamp.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 1000
+     *  1 ≤ P ≤ 1000
+     *  0 ≤ X ≤ 400
+     *  0 ≤ Y ≤ 400
      * </pre>
      */
     public static void main(String[] args) {

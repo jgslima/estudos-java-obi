@@ -14,6 +14,21 @@ public class relogiodeatleta {
      *  manter o ritmo de exercício se nenhuma das condições anteriores ocorrer.
      * Dadas a frequência cardíaca em repouso, a frequência cardíaca atual e a capacidade de oxigenação
      * atual obtidas pelo relógio, escreva um programa que produza a sugestão que o relógio deve emitir.
+     *
+     * Entrada:
+     * A entrada é composta por três linhas, cada uma contendo um único número inteiro. A primeira linha
+     * contém o inteiro R, a frequência cardíaca em repouso do atleta. A segunda linha contém o inteiro F, a
+     * frequência cardíaca atual do atleta. A terceira linha contém o inteiro C, a capacidade de oxigenação
+     * atual do atleta.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha, contendo uma única palavra, em letras minúsculas,
+     * que deve ser 'aumentar', 'diminuir', ou 'manter', de acordo com os critérios estabelecidos acima.
+     *
+     * Restrições:
+     *  35 ≤ R ≤ 100
+     *  35 ≤ F ≤ 200
+     *  50 ≤ C ≤ 100
      * </pre>
      */
     public static void main(String[] args) {

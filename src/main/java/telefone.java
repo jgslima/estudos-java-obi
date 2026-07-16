@@ -19,6 +19,19 @@ public class telefone {
      * reclamado de problemas de vista -- em particular, ela não consegue mais enxergar as letrinhas nas
      * teclas do telefone, e por isso queria que você fizesse um programa que convertesse as letras em um
      * número de telefone para dígitos.
+     *
+     * Entrada:
+     * A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão. A
+     * entrada é composta de apenas uma linha, contendo o número de telefone que deve ser traduzido. O
+     * número de telefone contém entre 1 e 15 caracteres, que podem ser letras de A a Y e hífens (-).
+     *
+     * Saída:
+     * Seu programa deve imprimir na saída padrão uma única linha, contendo o número de telefone com
+     * as letras convertidas para dígitos. Hífens no número telefone devem ser mantidos no número de
+     * telefone de saída.
+     *
+     * Restrições:
+     *  O número de telefone contém entre 1 e 15 caracteres, que podem ser letras de A a Y e hífens (-).
      * </pre>
      */
     public static void main(String[] args) {

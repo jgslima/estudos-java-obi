@@ -12,6 +12,17 @@ public class tomadas {
      * régua em outra para aumentar ainda mais o número de tomadas disponíveis. No entanto, como as
      * réguas têm muitas tomadas, eles pediram para você escrever um programa que, dado o número de
      * tomadas em cada régua, determina quantas tomadas podem ser disponibilizadas no saguão do hotel.
+     *
+     * Entrada:
+     * A entrada consiste de uma linha com quatro inteiros positivos T_1, T_2, T_3, T_4, indicando o
+     * número de tomadas de cada uma das quatro réguas.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma única linha contendo um único número inteiro, indicando o número
+     * máximo de notebooks que podem ser conectados num mesmo instante.
+     *
+     * Restrições:
+     *  2 ≤ T_i ≤ 6.
      * </pre>
      */
     public static void main(String[] args) {

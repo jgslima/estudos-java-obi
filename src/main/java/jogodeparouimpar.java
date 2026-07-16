@@ -11,6 +11,20 @@ public class jogodeparouimpar {
      * dedos estendidos, ao passo que Bob deixou três dedos estendidos. A soma então é três, que é
      * ímpar, portanto Bob ganhou. Seu programa deve determinar quem ganhou, tendo a informação de
      * quem gritou par e o número de dedos estendidos de cada um.
+     *
+     * Entrada:
+     * A entrada contém três linhas, cada uma com um número inteiro, P, D_1 e D_2, nesta ordem. Se P =
+     * 0 então Alice gritou "par", ao passo que se P=1 então Bob gritou "par". Os números D_1 e D_2
+     * indicam, respectivamente, o número de dedos estendidos da Alice e do Bob.
+     *
+     * Saída:
+     * Seu programa deverá imprimir uma única linha, contendo um único número inteiro, que deve ser 0 se
+     * Alice foi a ganhadora, ou 1 se Bob foi o ganhador.
+     *
+     * Restrições:
+     *  P = 0 ou P = 1
+     *  0 ≤ D_1 ≤ 5
+     *  0 ≤ D_2 ≤ 5
      * </pre>
      */
     public static void main(String[] args) {

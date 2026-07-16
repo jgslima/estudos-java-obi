@@ -17,6 +17,20 @@ public class albumdacopa {
      * Dados o número total de espaços e figurinhas do álbum, e uma lista das figurinhas já compradas
      * (que pode conter figurinhas repetidas), sua tarefa é determinar quantas figurinhas faltam para
      * completar o álbum.
+     *
+     * Entrada:
+     * A primeira linha contém um inteiro N indicando o número total de figurinhas e espaços no álbum. A
+     * segunda linha contém um inteiro M indicando o número de figurinhas já compradas. Cada uma das M
+     * linhas seguintes contém um número inteiro X indicando uma figurinha já comprada.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha contendo um inteiro, o número de figurinhas que falta
+     * para completar o álbum.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 100
+     *  1 ≤ M ≤ 300
+     *  1 ≤ X ≤ N
      * </pre>
      */
     public static void main(String[] args) {

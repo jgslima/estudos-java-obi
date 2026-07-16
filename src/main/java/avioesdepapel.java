@@ -18,6 +18,24 @@ public class avioesdepapel {
      * Você deve escrever um programa que, dados o número de competidores, o número de folhas de
      * papel especial compradas pela Diretora e o número de folhas que cada competidor deve receber,
      * determine se o número de folhas comprado pela Diretora é suficiente.
+     *
+     * Entrada:
+     * A entrada é composta de uma linha contendo três números inteiros C, P e F representando
+     * respectivamente o número de competidores, a quantidade de folhas de papel especial compradas
+     * pela Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
+     *
+     * Saída:
+     * Seu programa deve imprimir na saída padrão uma única linha contendo o caractere `S " se a
+     * quantidade de folhas compradas pela Diretora é suficiente, ou o caractere `N " caso contrário. Note
+     * que os caracteres devem ser letras maiúsculas.
+     *
+     * Restrições:
+     *  1 ≤ C ≤ 1000
+     *  1 ≤ P ≤ 1000
+     *  1 ≤ F ≤ 1000
+     * Informações sobre a pontuação
+     *  Em um conjunto de casos de teste que totaliza 30 pontos, C ≤ 10, P ≤ 10 e F ≤ 10.
+     *  Em um conjunto de casos de teste que totaliza 80 pontos, C ≤ 100, P ≤ 100 e F ≤ 100.
      * </pre>
      */
     public static void main(String[] args) {

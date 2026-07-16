@@ -12,6 +12,18 @@ public class pilotoautomatico {
      * que a distância da sua traseira para a traseira do carro C. Se for maior, ele precisa ser desacelerado.
      * Se for igual, precisa manter a velocidade atual. Quer dizer, o carro B precisa ser acelerado se (B-A) &lt;
      * (C-B), desacelerado se (B-A) &gt; (C-B) e manter a velocidade se (B-A) for igual a (C-B).
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro A. A segunda linha da entrada contém um inteiro B. A
+     * terceira linha da entrada contém um inteiro C. Os três inteiros representam as posições atuais das
+     * traseiras dos carros A, B e C, respectivamente.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma linha contendo um inteiro: 1 se o carro B precisa acelerar; -1 se
+     * precisa desacelerar; ou 0 se precisa manter a velocidade atual.
+     *
+     * Restrições:
+     *  0 ≤ A &lt; B &lt; C ≤ 500
      * </pre>
      */
     public static void main(String[] args) {

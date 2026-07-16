@@ -13,6 +13,21 @@ public class vestibular {
      * candidatos e gerar a lista com suas pontuações. Você trabalha no comitê responsável pelo vestibular
      * em uma faculdade e deve escrever um programa que, dado o gabarito e as respostas de um dos
      * candidatos, determina o número de acertos daquele candidato.
+     *
+     * Entrada:
+     * A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão. A
+     * primeira linha da entrada contém um único inteiro N, indicando o número de questões da prova. A
+     * segunda linha da entrada contém uma cadeia de N caracteres, indicando o gabarito da prova. A
+     * terceira linha da entrada contém outra cadeia de N caracteres, indicando as opções marcadas pelo
+     * candidato. Ambas as cadeias contêm apenas os caracteres `A", `B", `C", `D" e `E" (sempre em letra
+     * maiúscula).
+     *
+     * Saída:
+     * Seu programa deve imprimir na saída padrão uma única linha contendo um único inteiro, indicando o
+     * número de acertos do candidato.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 80
      * </pre>
      */
     public static void main(String[] args) {

@@ -15,6 +15,25 @@ public class lampadas {
      * , ambas as lâmpadas A e B trocam de estado. As lâmpadas inicialmente estão ambas apagadas. Seu
      * amigo resolveu bolar um desafio para você. Ele irá apertar os interruptores em uma certa sequência,
      * e gostaria que você respondesse o estado final das lâmpadas A e B.
+     *
+     * Entrada:
+     * A primeira linha contém um número N que representa quantas vezes seu amigo irá apertar algum
+     * interruptor. Na linha seguinte seguirão N números, que pode ser 1, se o interruptor I
+     * 1
+     * foi apertado, ou 2, se o interruptor I
+     * 2
+     * foi apertado.
+     *
+     * Saída:
+     * Seu programa deve imprimir dois valores, em linhas separadas. Na primeira linha, imprima 1 se a
+     * lâmpada A estiver acesa no final das operações e 0 caso contrário. Na segunda linha, imprima 1 se a
+     * lâmpada B estiver acesa no final das operações e 0 caso contrário.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 105
+     * Informações sobre a pontuação
+     *
+     *  Em um conjunto de casos de teste equivalente a 20 pontos, N = 3.
      * </pre>
      */
     public static void main(String[] args) {

@@ -17,6 +17,18 @@ public class campominado {
      * Leonardo sabe que você participa da OBI e resolveu lhe pedir para escrever um programa de
      * computador que, dado um tabuleiro, imprima o número de minas na vizinhança de cada posição.
      * Assim, ele poderá conferir as centenas de tabuleiros que resolveu durante as férias.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro N indicando o número de células no tabuleiro. O
+     * tabuleiro é dado nas próximas N linhas. A i-ésima linha seguinte contém 0 se não existe mina na
+     * i-ésima célula do tabuleiro e 1 se existe uma mina na i-ésima célula do tabuleiro.
+     *
+     * Saída:
+     * A saída é composta por N linhas. A i-ésima linha da saída contém o número de minas explosivas nos
+     * arredores da i-ésima célula do tabuleiro.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 50
      * </pre>
      */
     public static void main(String[] args) {

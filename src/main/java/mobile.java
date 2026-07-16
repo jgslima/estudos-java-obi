@@ -11,6 +11,20 @@ public class mobile {
      *
      * Nesta tarefa, dados os pesos das quatro bolas, seu programa deve decidir se o móbile está ou não
      * completamente equilibrado.
+     *
+     * Entrada:
+     * A entrada consiste de quatro linhas contendo, cada uma, um número inteiro, indicando os pesos das
+     * bolas. Os números são dados na ordem: A, B, C e D.
+     *
+     * Saída:
+     * Seu programa deve escrever uma única linha na saída, contendo o caractere "
+     * S
+     * " se o móbile estiver equilibrado, ou o caractere "
+     * N
+     * " se não estiver equilibrado.
+     *
+     * Restrições:
+     *  1 ≤ A,B,C,D ≤ 1000
      * </pre>
      */
     public static void main(String[] args) {

@@ -11,6 +11,24 @@ public class corrida {
      * tempos de cada aluno competidor, descobrir quem foi o aluno vencedor, para que ele possa receber
      * uma medalha comemorativa. Saída A saída consiste de um único inteiro, que corresponde ao
      * número do competidor que ganhou a corrida.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém dois inteiros N e M representando o número de competidores e o
+     * número de voltas da corrida, respectivamente. Cada uma das N linhas seguintes representa um
+     * competidor: a primeira linha representa o primeiro competidor, a segunda linha representa o segundo
+     * competidor, e assim por diante. Cada linha contém M inteiros representando os tempos em cada
+     * volta da corrida: o primeiro inteiro é o tempo da primeira volta, o segundo inteiro é o tempo da
+     * segunda volta, e assim por diante. Garante-se que não houve dois competidores que gastaram o
+     * mesmo tempo para completar a corrida inteira.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma única linha, contendo um único inteiro, o número do competidor
+     * que ganhou a corrida.
+     *
+     * Restrições:
+     *  2 ≤ N ≤ 100
+     *  1 ≤ M ≤ 100
+     *  1 ≤ qualquer número da entrada que represente o tempo de uma volta ≤ 106
      * </pre>
      */
     public static void main(String[] args) {

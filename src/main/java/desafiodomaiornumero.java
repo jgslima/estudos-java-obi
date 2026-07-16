@@ -9,6 +9,17 @@ public class desafiodomaiornumero {
      * sequência de números costuma ser longa. Por este motivo, ele resolveu pedir sua ajuda.
      * Sua tarefa é escrever um programa que dada uma sequência de números inteiros positivos
      * terminada por 0 (zero), imprime o maior número da sequência.
+     *
+     * Entrada:
+     * A entrada é dada em uma única linha contendo uma sequência de números inteiros positivos. O
+     * último número da linha é 0 (zero).
+     *
+     * Saída:
+     * Seu programa deve imprimir o maior número dentre os números da entrada.
+     *
+     * Restrições:
+     *  1 ≤ tamanho da sequência ≤ 100
+     *  1 ≤ número da sequência ≤ 100
      * </pre>
      */
     public static void main(String[] args) {

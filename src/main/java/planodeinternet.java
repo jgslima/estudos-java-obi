@@ -12,6 +12,25 @@ public class planodeinternet {
      * terceiro mês). Nesta tarefa são dados o valor da quota mensal X e quantos megabytes João usou em
      * cada um dos primeiros N meses do plano. Você deve determinar quantos megabytes João tem para
      * usar no mês N+1.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um número inteiro X, o valor da quota mensal em megabytes. A
+     * segunda linha contém um inteiro N, o número de meses. Cada uma das linhas seguintes contém um
+     * número inteiro M_i, indicando a quantidade de megabytes que João usou em cada mês, do mês 1
+     * até o mês N.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha, contendo um único número inteiro, a quantidade de
+     * megabytes que João tem para usar no mês N+1.
+     *
+     * Restrições:
+     *  1 ≤ X ≤ 100
+     *  1 ≤ N ≤ 100
+     *  0 ≤ M_i ≤ 10000 para 1 ≤ i ≤ N
+     *  M_i nunca é maior do que a quantidade de megabytes que João tem para usar no mês.
+     * Informações sobre a pontuação
+     *  Para um conjunto de casos de testes valendo 10 pontos, 1 ≤ N ≤ 3.
+     *  Para um conjunto de casos de testes valendo 90 pontos, nenhuma restrição adicional.
      * </pre>
      */
     public static void main(String[] args) {

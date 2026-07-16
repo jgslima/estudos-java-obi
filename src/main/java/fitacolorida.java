@@ -10,6 +10,24 @@ public class fitacolorida {
      * ser colorido com o tom cuja numeração corresponde à distância determinada. Se a distância for
      * maior ou igual a 9, o quadrado deve ser colorido com o tom 9. Seu programa deve colorir e imprimir a
      * fita quadriculada dada na entrada.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém apenas um inteiro N, indicando o número de quadrados da fita. A
+     * segunda linha contém N números inteiros: "
+     * -1
+     * " se o quadrado não está colorido, e "
+     * 0
+     * " se está colorido com o tom 0.
+     *
+     * Saída:
+     * Seu programa deve escrever na saída a fita totalmente colorida, de acordo com a regra definida
+     * acima.
+     *
+     * Restrições:
+     *  3 ≤ N ≤ 10000;
+     *  Sempre existe pelo menos um "0" inicialmente na fita.
+     * Informações sobre a pontuação
+     *  Em um conjunto de casos de teste somando 80 pontos, N ≤ 1000
      * </pre>
      */
     public static void main(String[] args) {

@@ -15,6 +15,19 @@ public class torneiodetenis {
      * treinamentos.
      * Dada uma lista com o resultado dos jogos de um participante, escreva um programa para
      * determinar em qual grupo ele será colocado.
+     *
+     * Entrada:
+     * A entrada consiste de seis linhas, cada linha indicando o resultado de um jogo do participante. Cada
+     * linha contém um único caractere: V se o participante venceu o jogo, ou P se o jogador perdeu o jogo.
+     * Não há empates nos jogos.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha na saída, contendo um único inteiro, identificando o
+     * grupo em que o participante será colocado. Se o participante não for colocado em nenhum dos três
+     * grupos seu programa deve imprimir o valor -1.
+     *
+     * Restrições:
+     * Não informado no PDF.
      * </pre>
      */
     public static void main(String[] args) {

@@ -22,6 +22,27 @@ public class gangorra {
      * são os comprimentos da gangorra do lado esquerdo e direito, respectivamente.
      * Com a equação, Joãozinho já consegue dizer se a gangorra está equilibrada ou não mas, além
      * disso, ele quer saber para qual lado a gangorra descerá caso esteja desequilibrada.
+     *
+     * Entrada:
+     * A primeira e única linha da entrada contém 4 inteiros, P
+     * 1
+     * , C
+     * 1
+     * , P
+     * 2
+     * e C
+     * 2
+     *
+     * , nesta ordem.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha, contendo um único inteiro. Se a gangorra estiver
+     * equilibrada, imprima "0". Se ela estiver desequilibrada de modo que a criança esquerda esteja na
+     * parte de baixo, imprima "-1", senão, imprima "1".
+     *
+     * Restrições:
+     *  10 ≤ P1 ≤ 100 e 10 ≤ C1 ≤ 100
+     *  10 ≤ P2 ≤ 100 e 10 ≤ C2 ≤ 100
      * </pre>
      */
     public static void main(String[] args) {

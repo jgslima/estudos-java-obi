@@ -9,6 +9,16 @@ public class idadedecamila {
      * que Cibele nasceu antes de Camila e Celeste nasceu depois de Camila.
      * Dados três números inteiros indicando as idades das irmãs, escreva um programa para determinar a
      * idade de Camila.
+     *
+     * Entrada:
+     * A entrada é composta por três linhas, cada linha contendo um número inteiro N, a idade de uma das
+     * irmãs.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha, contendo um único número inteiro, a idade de Camila.
+     *
+     * Restrições:
+     *  5 ≤ N ≤ 100
      * </pre>
      */
     public static void main(String[] args) {

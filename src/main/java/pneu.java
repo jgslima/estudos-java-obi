@@ -10,6 +10,18 @@ public class pneu {
      * o programa da próxima bomba da SBC - Sistemas de Bombas Computadorizadas. Escreva um
      * programa que, dada a pressão desejada digitada pelo motorista e a pressão do pneu lida pela
      * bomba, indica a diferença entre a pressão desejada e a pressão lida.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro N que indica a pressão desejada pelo motorista. A
+     * segunda linha contém um inteiro M que indica a pressão lida pela bomba.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma única linha, contendo a diferença entre a pressão desejada e a
+     * pressão lida.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 40
+     *  1 ≤ M ≤ 40
      * </pre>
      */
     public static void main(String[] args) {

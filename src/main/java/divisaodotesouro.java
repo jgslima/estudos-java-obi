@@ -12,6 +12,18 @@ public class divisaodotesouro {
      * perfeita, não sobrando ou faltando moedas.
      * Dados o número de moedas na arca e o número de marinheiros, escreva um programa para
      * determinar quantas moedas o Capitão Olho Roxo recebeu.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um número inteiro A, o número de moedas na arca. A segunda
+     * linha contém um inteiro N, o número de marinheiros (não contando o Capitão).
+     *
+     * Saída:
+     * Seu programa deve produzir na saída uma única linha, contendo um único inteiro, o número de
+     * moedas que o Capitão Olho Roxo deve receber.
+     *
+     * Restrições:
+     *  3 ≤ A ≤ 10000
+     *  1 ≤ N ≤ 1000
      * </pre>
      */
     public static void main(String[] args) {

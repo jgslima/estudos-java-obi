@@ -9,6 +9,23 @@ public class saldodovovo {
      * cobrado se o saldo for menor do que um valor pré-estabelecido.
      * Dada a movimentação diária da conta do banco do Vovô João, você deve escrever um programa que
      * calcule o menor saldo da conta, no período dado.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém dois números inteiros N e S que indicam respectivamente o
+     * número de dias do período de interesse e o saldo da conta no início do período. Cada uma das N
+     * linhas seguintes contém um número inteiro indicando a movimentação de um dia (valor positivo no
+     * caso de depósito, valor negativo no caso de retirada). A movimentação é dada para um período de N
+     * dias consecutivos: a primeira das N linhas corresponde ao primeiro dia do período de interesse, a
+     * segunda linha corresponde ao segundo dia, e assim por diante.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma única linha, contendo um único número inteiro, o menor valor de
+     * saldo da conta no período dado.
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 30
+     *  -10^3 ≤ S ≤ 10^3
+     *  -10^3 ≤ cada movimentação ≤ 10^3
      * </pre>
      */
     public static void main(String[] args) {

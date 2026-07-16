@@ -15,6 +15,17 @@ public class domino {
      * de um jogo do tipo duplo-N, para um número N natural qualquer: ((N+1)*(N+2))/2. Neste problema,
      * estamos precisando da sua ajuda para escrever um programa que, dado o valor N, use esta fórmula
      * para calcular e imprimir quantas peças existem num jogo de dominó do tipo duplo-N.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um número natural N representando o tipo do jogo de dominó:
+     * duplo-N.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma linha contendo um número natural representando quantas peças
+     * existem num jogo de dominó do tipo duplo-N.
+     *
+     * Restrições:
+     *  0 ≤ N ≤ 10000
      * </pre>
      */
     public static void main(String[] args) {

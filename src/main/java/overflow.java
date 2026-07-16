@@ -16,6 +16,28 @@ public class overflow {
      * multiplicação entre dois inteiros, determine se ocorrerá
      * overflow
      * .
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro N representando o maior número que o computador
+     * consegue representar. A segunda linha contém um inteiro P, seguido de um espaço em branco,
+     * seguido de um caractere C (que pode ser `+" ou `*", representando os operadores de adição e
+     * multiplicação, respectivamente), seguido de um espaço em branco, seguido de um outro inteiro Q.
+     * Essa linha representa a expressão P + Q , se o caractere C for `+", ou P x Q, se o caractere C for `*".
+     *
+     * Saída:
+     * Se programa deve imprimir uma única linha, contendo a palavra `OVERFLOW " se o resultado da
+     * expressão causar um
+     * overflow
+     * , ou a palavra `OK " caso contrário. Ambas as palavras devem ser escritas com letras maiúsculas.
+     *
+     * Restrições:
+     *  1 ≤ N \leq 500.000
+     *  0 ≤ P \leq 1000
+     *  0 ≤ Q ≤ 1000
+     * Informações sobre a pontuação
+     *
+     *  Em um conjunto de casos de teste que totaliza 30 pontos, N ≤ 10 , P ≤ 10 e Q ≤ 10 .
+     *  Em um conjunto de casos de teste que totaliza 80 pontos, N ≤ 100 , P ≤ 100 e Q ≤ 100 .
      * </pre>
      */
     public static void main(String[] args) {

@@ -10,6 +10,21 @@ public class aidadededonamonica {
      * soma das três idades tem que ser 52. Portanto, a idade do filho mais velho é 20. Em mais um
      * exemplo, se dona Mônica tem 47 anos e as idades de dois dos filhos são 21 e 9 anos, então o outro
      * filho tem que ter 17 anos e, portanto, a idade do filho mais velho é 21.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um inteiro M representando a idade de dona Mônica. A segunda
+     * linha da entrada contém um inteiro A representando a idade de um dos filhos. A terceira linha da
+     * entrada contém um inteiro B representando a idade de outro filho.
+     *
+     * Saída:
+     * Seu programa deve imprimir uma linha, contendo um número inteiro, representando a idade do filho
+     * mais velho de dona Mônica.
+     *
+     * Restrições:
+     *  40 ≤ M ≤ 110
+     *  1 ≤ A &lt; M
+     *  1 ≤ B &lt; M
+     *  A ≠ B
      * </pre>
      */
     public static void main(String[] args) {

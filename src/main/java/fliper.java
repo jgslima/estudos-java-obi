@@ -12,6 +12,17 @@ public class fliper {
      *
      * Você deve escrever um programa que, dadas as posições das portinhas P e R, neste flíper da figura,
      * diga por qual dos três caminhos, A, B ou C, a bolinha vai cair!
+     *
+     * Entrada:
+     * A entrada é composta por apenas uma linha contendo dois números P e R, indicando as posições
+     * das duas portinhas do flíper da figura.
+     *
+     * Saída:
+     * A saída do seu programa deve ser também apenas uma linha, contendo uma letra maiúscula que
+     * indica o caminho por onde a bolinha vai cair: "A", "B" ou "C".
+     *
+     * Restrições:
+     *  O número P pode ser 0 ou 1. O número R pode ser 0 ou 1.
      * </pre>
      */
     public static void main(String[] args) {

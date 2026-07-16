@@ -18,6 +18,23 @@ public class numerodeenvelopes {
      * Como você é o melhor amigo de Aldo ele pediu sua ajuda para fazer o cálculo, de modo que ele
      * compre o número exato de envelopes. Você deve escrever um programa que, a partir da lista de
      * rótulos de Aldo, calcula o número máximo de envelopes válidos que ele pode enviar.
+     *
+     * Entrada:
+     * A primeira linha da entrada contém um número inteiro N representando o número de tipos diferentes
+     * de balas que a SBC produz. A segunda linha da entrada contém N números inteiros, cada um
+     * representando uma quantidade de rótulos de balas que Aldo tem. O primeiro número nessa linha
+     * representa a quantidade de rótulos do tipo 1 que Aldo possui, o segundo número representa a
+     * quantidade de rótulos do tipo 2, e assim por diante, até o último número, que representa a
+     * quantidade de rótulos de tipo N que Aldo possui.
+     *
+     * Saída:
+     * Seu programa deve imprimir na saída padrão
+     *
+     * Restrições:
+     *  1 ≤ N ≤ 1000
+     * Informações sobre a pontuação
+     *  Em um conjunto de casos de teste que totaliza 30 pontos, N ≤ 10.
+     *  Em um conjunto de casos de teste que totaliza 80 pontos, N ≤ 100.
      * </pre>
      */
     public static void main(String[] args) {

@@ -19,6 +19,20 @@ public class transportedeconteineres {
      * A SBC está com problemas para saber qual a quantidade máxima de contêineres que podem ser
      * colocados no navio e pede sua ajuda. Sua tarefa, neste problema, é determinar quantos contêineres
      * podem ser carregados no navio respeitando as restrições acima.
+     *
+     * Entrada:
+     * A entrada consiste de duas linhas. A primeira linha contém três inteiros A, B e C que representam as
+     * dimensões dos contêineres, enquanto a segunda linha contém outros três inteiros X, Y e Z que
+     * representam as dimensões do navio.
+     *
+     * Saída:
+     * Seu programa deve imprimir apenas uma linha contendo um inteiro que indica a quantidade máxima
+     * de contêineres que o navio consegue transportar.
+     *
+     * Restrições:
+     *  1 ≤ A, B, C, X, Y, Z ≤ 106
+     *
+     *  É garantido que a maior resposta será menor ou igual a 106
      * </pre>
      */
     public static void main(String[] args) {

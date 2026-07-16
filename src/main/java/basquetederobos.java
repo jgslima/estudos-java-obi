@@ -16,6 +16,17 @@ public class basquetederobos {
      *  Se 1400 &lt; D ≤ 2000, a cesta vale 3 pontos.
      * A organização da OIBR precisa de ajuda para automatizar o placar do jogo. Dado o valor da distância
      * D, você deve escrever um programa para calcular o número de pontos do lançamento.
+     *
+     * Entrada:
+     * A primeira e única linha da entrada contém um inteiro D indicando a distância do robô para o início da
+     * quadra, em centímetros, no momento do lançamento.
+     *
+     * Saída:
+     * Seu programa deve produzir uma única linha, contendo um inteiro, 1, 2 ou 3, indicando a pontuação
+     * do lançamento.
+     *
+     * Restrições:
+     *  0 ≤ D ≤ 2000
      * </pre>
      */
     public static void main(String[] args) {
