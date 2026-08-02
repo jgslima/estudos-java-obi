@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
 public class codigosrepetidos {
 
     /**
@@ -25,5 +29,30 @@ public class codigosrepetidos {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        Map<Integer, Integer> frequencias = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            int codigo = scanner.nextInt();
+            frequencias.put(codigo, frequencias.getOrDefault(codigo, 0) + 1);
+        }
+
+        int melhorCodigo = -1;
+        int maiorFrequencia = -1;
+
+        for (Map.Entry<Integer, Integer> entrada : frequencias.entrySet()) {
+            int codigo = entrada.getKey();
+            int frequencia = entrada.getValue();
+
+            if (frequencia > maiorFrequencia
+                    || (frequencia == maiorFrequencia && codigo < melhorCodigo)) {
+                melhorCodigo = codigo;
+                maiorFrequencia = frequencia;
+            }
+        }
+
+        System.out.println(frequencias.size());
+        System.out.println(melhorCodigo + " " + maiorFrequencia);
     }
 }

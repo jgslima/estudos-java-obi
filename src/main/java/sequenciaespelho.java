@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class sequenciaespelho {
 
     /**
@@ -21,5 +23,23 @@ public class sequenciaespelho {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] numeros = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            numeros[i] = scanner.nextInt();
+        }
+
+        boolean espelho = true;
+
+        for (int i = 0; i < n / 2; i++) {
+            if (numeros[i] != numeros[n - 1 - i]) {
+                espelho = false;
+                break;
+            }
+        }
+
+        System.out.println(espelho ? "S" : "N");
     }
 }

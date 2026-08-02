@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
 public class gritodatorcida {
 
     /**
@@ -23,5 +27,30 @@ public class gritodatorcida {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        Map<String, Integer> frequencias = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            String time = scanner.next();
+            frequencias.put(time, frequencias.getOrDefault(time, 0) + 1);
+        }
+
+        String melhorTime = null;
+        int maiorFrequencia = -1;
+
+        for (Map.Entry<String, Integer> entrada : frequencias.entrySet()) {
+            String time = entrada.getKey();
+            int frequencia = entrada.getValue();
+
+            if (frequencia > maiorFrequencia
+                    || (frequencia == maiorFrequencia && time.compareTo(melhorTime) < 0)) {
+                melhorTime = time;
+                maiorFrequencia = frequencia;
+            }
+        }
+
+        System.out.println(melhorTime);
+        System.out.println(maiorFrequencia);
     }
 }

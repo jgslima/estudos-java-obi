@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class somadosvizinhos {
 
     /**
@@ -25,5 +27,34 @@ public class somadosvizinhos {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] valores = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            valores[i] = scanner.nextInt();
+        }
+
+        StringBuilder saida = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            int soma = valores[i];
+
+            if (i > 0) {
+                soma += valores[i - 1];
+            }
+
+            if (i + 1 < n) {
+                soma += valores[i + 1];
+            }
+
+            if (i > 0) {
+                saida.append(' ');
+            }
+
+            saida.append(soma);
+        }
+
+        System.out.println(saida);
     }
 }

@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
 public class estoquedafeira {
 
     /**
@@ -28,5 +32,29 @@ public class estoquedafeira {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        Map<String, Integer> estoque = new HashMap<>();
+        StringBuilder saida = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            String operacao = scanner.next();
+            String nome = scanner.next();
+
+            if (operacao.equals("CONSULTA")) {
+                saida.append(estoque.getOrDefault(nome, 0)).append('\n');
+            } else {
+                int quantidade = scanner.nextInt();
+                int atual = estoque.getOrDefault(nome, 0);
+
+                if (operacao.equals("ENTRA")) {
+                    estoque.put(nome, atual + quantidade);
+                } else {
+                    estoque.put(nome, atual - quantidade);
+                }
+            }
+        }
+
+        System.out.print(saida);
     }
 }

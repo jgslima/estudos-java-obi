@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class maioronda {
 
     /**
@@ -23,5 +25,42 @@ public class maioronda {
      * </pre>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] alturas = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            alturas[i] = scanner.nextInt();
+        }
+
+        if (n < 3) {
+            System.out.println(0);
+            return;
+        }
+
+        int[] cresce = new int[n];
+        int[] decresce = new int[n];
+
+        for (int i = 1; i < n; i++) {
+            if (alturas[i] > alturas[i - 1]) {
+                cresce[i] = cresce[i - 1] + 1;
+            }
+        }
+
+        for (int i = n - 2; i >= 0; i--) {
+            if (alturas[i] > alturas[i + 1]) {
+                decresce[i] = decresce[i + 1] + 1;
+            }
+        }
+
+        int resposta = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (cresce[i] > 0 && decresce[i] > 0) {
+                resposta = Math.max(resposta, cresce[i] + decresce[i] + 1);
+            }
+        }
+
+        System.out.println(resposta);
     }
 }
