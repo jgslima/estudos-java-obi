@@ -1,0 +1,9 @@
+8
+ENTRA milho 5
+ENTRA milho 7
+ENTRA feijao 4
+SAI milho 6
+CONSULTA milho
+SAI feijao 1
+CONSULTA feijao
+CONSULTA arroz

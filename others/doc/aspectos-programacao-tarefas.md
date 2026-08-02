@@ -253,3 +253,45 @@ Este arquivo resume, para cada tarefa preparada no projeto, quais ideias de prog
 - Resolução: contagem de vitórias e mapeamento para grupo.
 - Estruturas de dados: variáveis escalares.
 - Aspectos de programação: contagem categórica, intervalos.
+
+## Sequência Invertida
+
+- Resolução: armazenamento da sequência e impressão dos elementos na ordem inversa.
+- Estruturas de dados: array de inteiros.
+- Aspectos de programação: leitura indexada, percurso reverso, formatação de saída.
+
+## Soma dos Vizinhos
+
+- Resolução: construção de uma nova sequência em que cada posição soma o próprio valor com os vizinhos imediatos existentes.
+- Estruturas de dados: array de inteiros.
+- Aspectos de programação: varredura indexada, tratamento de bordas, montagem de saída sequencial.
+
+## Sequência Espelho
+
+- Resolução: comparação entre elementos simétricos para decidir se a sequência é palíndroma.
+- Estruturas de dados: array de inteiros.
+- Aspectos de programação: dois ponteiros, comparação por pares, parada antecipada.
+
+## Maior Onda
+
+- Resolução: busca do maior trecho contínuo que primeiro cresce estritamente e depois decresce estritamente.
+- Estruturas de dados: array de inteiros.
+- Aspectos de programação: análise de segmentos, contagem de comprimentos, controle de estados.
+
+## Grito da Torcida
+
+- Resolução: contagem de quantas vezes cada nome de time aparece e escolha do mais frequente.
+- Estruturas de dados: Map<String, Integer>.
+- Aspectos de programação: tabela de frequências, desempate lexicográfico, chaves textuais.
+
+## Códigos Repetidos
+
+- Resolução: contagem de ocorrências de códigos arbitrários e identificação do código mais frequente.
+- Estruturas de dados: Map<Integer, Integer>.
+- Aspectos de programação: frequência com conjunto de chaves desconhecido, rastreamento de máximo, desempate numérico.
+
+## Estoque da Feira
+
+- Resolução: simulação de operações de entrada, saída e consulta de produtos mantendo os saldos por nome.
+- Estruturas de dados: Map<String, Integer>.
+- Aspectos de programação: parsing de comandos, atualização incremental, consultas online por chave textual.
